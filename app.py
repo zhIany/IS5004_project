@@ -8,7 +8,9 @@ def chat_bot(input_text, history, uploaded_file):
         response = f"Answer related to {os.path.basename(uploaded_file.name)}"
     else:
         response = "I don't have enough information to answer that."
-    return response, history + [(input_text, response)]
+    # 更新历史记录
+    history.append((input_text, response))
+    return response, history
 
 # 创建 Gradio 界面
 with gr.Blocks() as demo:
@@ -30,7 +32,7 @@ with gr.Blocks() as demo:
     submit_button = gr.Button("Submit")
 
     # 查询历史记录展示
-    history_output = gr.JSON(label="Query History")
+    history_output = gr.Textbox(label="Query History", lines=10)
 
     # 设置按钮点击事件
     submit_button.click(
@@ -39,10 +41,13 @@ with gr.Blocks() as demo:
         outputs=[chat_output, chat_history]
     )
 
-    # 更新查询历史记录
+    # 更新查询历史记录展示
     def update_history(history):
-        return history
+        # 将历史记录转换为字符串格式
+        history_str = "\n".join([f"Q: {q}\nA: {a}" for q, a in history])
+        return history_str
 
+    # 在聊天历史记录更新时触发
     chat_history.change(
         fn=update_history,
         inputs=chat_history,
