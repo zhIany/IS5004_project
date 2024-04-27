@@ -17,6 +17,12 @@ with gr.Blocks() as demo:
     gr.Markdown("## Data Science Chat Bot")
     gr.Markdown("Upload a document and ask questions related to it.")
 
+    # 用户上传的文件
+    uploaded_file = gr.File(label="Upload Document")
+
+    # 聊天历史记录
+    chat_history = gr.State([])
+
     # 文件上传组件
     file_input = gr.File(label="Upload Document")
 
@@ -46,13 +52,6 @@ with gr.Blocks() as demo:
         # 将历史记录转换为字符串格式
         history_str = "\n".join([f"Q: {q}\nA: {a}" for q, a in history])
         return history_str
-
-    # 在聊天历史记录更新时触发
-    chat_history.change(
-        fn=update_history,
-        inputs=chat_history,
-        outputs=history_output
-    )
 
 # 运行 Gradio 应用
 demo.launch()
