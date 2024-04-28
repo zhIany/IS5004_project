@@ -139,13 +139,16 @@ logging.basicConfig(stream=sys.stdout, level=logging.INFO)
 # RAG + rerank 方法，
 from llama_index.core import SimpleDirectoryReader
 
-documents = SimpleDirectoryReader("./IS5004project/dataset/").load_data()
+documents = SimpleDirectoryReader("./db").load_data()
 from llama_index.core import VectorStoreIndex
 from llama_index.core.node_parser import SentenceSplitter
 
-splitter = SentenceSplitter(chunk_size=256)
+# splitter = SentenceSplitter(chunk_size=256)
 
-index = VectorStoreIndex.from_documents(documents, transformations=[splitter])
+index = VectorStoreIndex.from_documents(documents)
+
+print(index)
+
 
 from llama_index.retrievers.bm25 import BM25Retriever
 
@@ -188,18 +191,28 @@ query_engine = RetrieverQueryEngine.from_args(retriever)
 import nest_asyncio
 nest_asyncio.apply()
 
-
-for i in range(1, 69):
-    question = f"""
-        You are a skilled teaching assistant with 10 years of experience in Artificial Intelligence, particularly Natural Language Processing. You have two main job responsibilities:\
+question = """ You are a skilled teaching assistant with 10 years of experience in Artificial Intelligence, particularly Natural Language Processing. You have two main job responsibilities:
     1. Discover the parts of the course lesson plan that students are more interested in through dialogue with them. At the same time, you will combine your knowledge to introduce the relevant content to the students, so that the students can have a deeper understanding of the relevant content in the lesson plan that they are interested in or don't know much about yet.
     2. Answer students' questions about AI and practical language processing according to the course handout, trying to explain it step by step to ensure that students can fully understand all the concepts or related applications, and give some code as examples if necessary. If you can find relevant information in the course handouts, please try to answer based on your own knowledge and experience. Remember not to give incorrect answers. If you are unsure of an answer, tell the student that you are unsure. If the answer is correct and accurate, you will be paid well. Therefore, please try to address all questions asked by the student.
 
 
-    Question: 请为我解释课件第{i}页的含义
-    """
-    response = query_engine.query(question)
-    nodes = retriever.retrieve(question)
-    for j in range(10):
-        print("label page ", nodes[j].node.metadata["page_label"])
-    print(response)
+    Question: 请为我解释课件第{i}页的含义"""
+
+nodes = retriever.retrieve(question)
+print(nodes[0])
+
+#
+# for i in range(1, 69):
+#     question = f"""
+#         You are a skilled teaching assistant with 10 years of experience in Artificial Intelligence, particularly Natural Language Processing. You have two main job responsibilities:\
+#     1. Discover the parts of the course lesson plan that students are more interested in through dialogue with them. At the same time, you will combine your knowledge to introduce the relevant content to the students, so that the students can have a deeper understanding of the relevant content in the lesson plan that they are interested in or don't know much about yet.
+#     2. Answer students' questions about AI and practical language processing according to the course handout, trying to explain it step by step to ensure that students can fully understand all the concepts or related applications, and give some code as examples if necessary. If you can find relevant information in the course handouts, please try to answer based on your own knowledge and experience. Remember not to give incorrect answers. If you are unsure of an answer, tell the student that you are unsure. If the answer is correct and accurate, you will be paid well. Therefore, please try to address all questions asked by the student.
+#
+#
+#     Question: 请为我解释课件第{i}页的含义
+#     """
+#     response = query_engine.query(question)
+#     nodes = retriever.retrieve(question)
+#     for j in range(10):
+#         print("label page ", nodes[j].node.metadata["page_label"])
+#     print(response)

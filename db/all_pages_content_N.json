@@ -1,0 +1,3516 @@
+{
+    "Page_0": [
+        [
+            "image",
+            "image",
+            "image",
+            "image",
+            "New Media and Sentiment Mining\n",
+            "Day 1 Part I\n",
+            "www.iss.nus.edu.sg\n",
+            "1\n"
+        ],
+        [
+            "image",
+            "image",
+            "image",
+            "image",
+            [
+                "ZJTXTV+Calibri-Bold",
+                20.04000000000002
+            ],
+            [
+                "ZJTXTV+Calibri-Bold",
+                20.039999999999992
+            ],
+            [
+                "ZJTXTV+Calibri-Bold",
+                15.96
+            ],
+            [
+                "GEDINH+Calibri",
+                12.0
+            ]
+        ],
+        [
+            "EAINUS\nOy National University\nof Singapore\n\nIse-\n\nof Singapore\n\nB® <a\n\nNew Media and Sentiment Mining\n\nDay 1 Part |\n",
+            "nv? ISS\n\nNational University\nof Singapore\n\n",
+            "NUS | joe= ‘i\n\nNational University y\nof Singapore\n\n",
+            "FY) National University L_wanw\n\nof Singapore\n\nMedia and Sentiment Mi\n"
+        ],
+        [],
+        [
+            "EAINUS\nOy National University\nof Singapore\n\nIse-\n\nof Singapore\n\nB® <a\n\nNew Media and Sentiment Mining\n\nDay 1 Part |\n",
+            "nv? ISS\n\nNational University\nof Singapore\n\n",
+            "NUS | joe= ‘i\n\nNational University y\nof Singapore\n\n",
+            "FY) National University L_wanw\n\nof Singapore\n\nMedia and Sentiment Mi\n",
+            "New Media and Sentiment Mining\n",
+            "Day 1 Part I\n",
+            "www.iss.nus.edu.sg\n",
+            "1\n"
+        ]
+    ],
+    "Page_1": [
+        [
+            "image",
+            "image",
+            "Key Takeaways \n",
+            "At the end of the course, you should be able to:\n• Identify where sentiment analysis can be applied\n• Evaluate and analyze the classification techniques for sentiment classification and \n",
+            "apply it with open-source libraries\n",
+            "• Design a sentiment analysis system for customer feedback and reviews\n• Design a sentiment analysis system for news and social media for applications in \n",
+            "finance\n",
+            "• Evaluate and assess sentiment analysis at a granular level for entities and aspects\n",
+            "© National University of Singapore. All Rights Reserved.\n",
+            "2\n"
+        ],
+        [
+            "image",
+            "image",
+            [
+                "GEDINH+Calibri",
+                36.0
+            ],
+            [
+                24.0,
+                "GEDINH+Calibri",
+                "RFQWLL+ArialMT"
+            ],
+            [
+                24.0,
+                "GEDINH+Calibri"
+            ],
+            [
+                24.00000000000003,
+                "GEDINH+Calibri",
+                24.0,
+                "RFQWLL+ArialMT"
+            ],
+            [
+                24.0,
+                "GEDINH+Calibri"
+            ],
+            [
+                24.0,
+                "GEDINH+Calibri",
+                "RFQWLL+ArialMT"
+            ],
+            [
+                "GEDINH+Calibri",
+                12.0
+            ],
+            [
+                "GEDINH+Calibri",
+                12.0
+            ]
+        ],
+        [
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "National University\nof Singapore\n\nNUS | ISS=\n\n"
+        ],
+        [],
+        [
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "Key Takeaways \n",
+            "At the end of the course, you should be able to:\n• Identify where sentiment analysis can be applied\n• Evaluate and analyze the classification techniques for sentiment classification and \n",
+            "apply it with open-source libraries\n",
+            "• Design a sentiment analysis system for customer feedback and reviews\n• Design a sentiment analysis system for news and social media for applications in \n",
+            "finance\n",
+            "• Evaluate and assess sentiment analysis at a granular level for entities and aspects\n",
+            "© National University of Singapore. All Rights Reserved.\n",
+            "2\n"
+        ]
+    ],
+    "Page_2": [
+        [
+            "table",
+            "image",
+            "image",
+            "Agenda\n",
+            "Day\n",
+            "Topics\n",
+            "Day 1\n",
+            "Introduction to Sentiment Analysis in New Media\nApplications & Challenges of Sentiment Analysis in New Media\nConsiderations for Sentiment Analysis System Design\nSentiment Summarization & Visualization\n",
+            "Day 2\n",
+            "Training Corpus & Features for Sentiment Mining\nSupervised Learning Classification Algorithms \n",
+            "Day 3\n",
+            "Entity and Aspect Mining\nRecent advances in LNP & Sentiment Analysis\n",
+            "© National University of Singapore. All Rights Reserved.\n",
+            "3\n"
+        ],
+        [
+            "table",
+            "image",
+            "image",
+            [
+                "GEDINH+Calibri",
+                36.0
+            ],
+            [
+                "NZSYHT+TwCenMT-Bold",
+                18.0
+            ],
+            [
+                "NZSYHT+TwCenMT-Bold",
+                18.0
+            ],
+            [
+                "JTPADB+TwCenMT-Regular",
+                18.0
+            ],
+            [
+                "GEDINH+Calibri",
+                18.0
+            ],
+            [
+                "JTPADB+TwCenMT-Regular",
+                18.0
+            ],
+            [
+                "GEDINH+Calibri",
+                18.0,
+                17.99999999999997
+            ],
+            [
+                "JTPADB+TwCenMT-Regular",
+                18.000000000000014
+            ],
+            [
+                "GEDINH+Calibri",
+                "JTPADB+TwCenMT-Regular",
+                18.0,
+                17.999999999999986
+            ],
+            [
+                "GEDINH+Calibri",
+                12.0
+            ],
+            [
+                "GEDINH+Calibri",
+                12.0
+            ]
+        ],
+        [
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "National University\nof Singapore\n\nNUS | ISS=\n\n"
+        ],
+        [
+            "|Day|Topics|None|None|\n|Day 1|Introduction to Sentiment Analysis in New Media Applications & Challenges of Sentiment Analysis in New Media Considerations for Sentiment Analysis System Design Sentiment Summarization & Visualization|||\n|Day 2|Training Corpus & Features for Sentiment Mining Supervised Learning Classification Algorithms|None|None|\n|Day 3|Entity and Aspect Mining Recent advances in LNP & Sentiment Analysis|None|None|"
+        ],
+        [
+            "|Day|Topics|None|None|\n|Day 1|Introduction to Sentiment Analysis in New Media Applications & Challenges of Sentiment Analysis in New Media Considerations for Sentiment Analysis System Design Sentiment Summarization & Visualization|||\n|Day 2|Training Corpus & Features for Sentiment Mining Supervised Learning Classification Algorithms|None|None|\n|Day 3|Entity and Aspect Mining Recent advances in LNP & Sentiment Analysis|None|None|",
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "Agenda\n",
+            "Day\n",
+            "Topics\n",
+            "Day 1\n",
+            "Introduction to Sentiment Analysis in New Media\nApplications & Challenges of Sentiment Analysis in New Media\nConsiderations for Sentiment Analysis System Design\nSentiment Summarization & Visualization\n",
+            "Day 2\n",
+            "Training Corpus & Features for Sentiment Mining\nSupervised Learning Classification Algorithms \n",
+            "Day 3\n",
+            "Entity and Aspect Mining\nRecent advances in LNP & Sentiment Analysis\n",
+            "© National University of Singapore. All Rights Reserved.\n",
+            "3\n"
+        ]
+    ],
+    "Page_3": [
+        [
+            "image",
+            "image",
+            "image",
+            "Part 1. Introduction to \nSentiment Analysis in \nNew Media \n",
+            "www.iss.nus.edu.sg\n",
+            "4\n"
+        ],
+        [
+            "image",
+            "image",
+            "image",
+            [
+                "GEDINH+Calibri",
+                35.99999999999997,
+                36.0
+            ],
+            [
+                "CGDKJP+CenturyGothic-Bold",
+                15.960000000000008
+            ],
+            [
+                "GEDINH+Calibri",
+                12.0
+            ]
+        ],
+        [
+            "a ®\n",
+            "NUS | IS\n\nNational University\nof Singapore\n\n",
+            "National University\nof Singapore\n\n"
+        ],
+        [],
+        [
+            "a ®\n",
+            "NUS | IS\n\nNational University\nof Singapore\n\n",
+            "National University\nof Singapore\n\n",
+            "Part 1. Introduction to \nSentiment Analysis in \nNew Media \n",
+            "www.iss.nus.edu.sg\n",
+            "4\n"
+        ]
+    ],
+    "Page_4": [
+        [
+            "image",
+            "image",
+            "Traditional Media vs New Media\n",
+            "• Traditional Media consists of print media, film studios, radios, \nnewspapers, and televisions. Traditional media marketing \noften sends out messages to the customers instead of \ninitiating conversations. The target audience of traditional \nmedia is a largely anonymous mass audience, and such \nmarketing can be described as one-way communication\n",
+            "image",
+            "• New Media, delivered digitally, include various forms of \n",
+            "media that are more interactive. Digital media marketing are \nusually conducted through social networking sites, internet \nadvertisements, podcasts, vlogs, and blogs. The \ncommunication tends to be bidirectional in nature. E.g. \ncompanies posting product descriptions, customers posting \nproduct reviews, and company reacting to the reviews\n",
+            "Source: https://www.whackedout.in/blog/2019/08/09/how-digital-media-is-overtaking-traditional-media/ \n",
+            "© National University of Singapore. All Rights Reserved.\n",
+            "5\n"
+        ],
+        [
+            "image",
+            "image",
+            [
+                "GEDINH+Calibri",
+                36.0
+            ],
+            [
+                "ZJTXTV+Calibri-Bold",
+                "GEDINH+Calibri",
+                21.95999999999998,
+                "RFQWLL+ArialMT"
+            ],
+            "image",
+            [
+                "GEDINH+Calibri",
+                21.960000000000008,
+                "RFQWLL+ArialMT"
+            ],
+            [
+                "ZJTXTV+Calibri-Bold",
+                "GEDINH+Calibri",
+                21.959999999999994,
+                21.96,
+                21.960000000000008
+            ],
+            [
+                "GEDINH+Calibri",
+                9.96
+            ],
+            [
+                "GEDINH+Calibri",
+                12.0
+            ],
+            [
+                "GEDINH+Calibri",
+                12.0
+            ]
+        ],
+        [
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "ty =\nBel]\n\nlig\n"
+        ],
+        [],
+        [
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "Traditional Media vs New Media\n",
+            "• Traditional Media consists of print media, film studios, radios, \nnewspapers, and televisions. Traditional media marketing \noften sends out messages to the customers instead of \ninitiating conversations. The target audience of traditional \nmedia is a largely anonymous mass audience, and such \nmarketing can be described as one-way communication\n",
+            "ty =\nBel]\n\nlig\n",
+            "• New Media, delivered digitally, include various forms of \n",
+            "media that are more interactive. Digital media marketing are \nusually conducted through social networking sites, internet \nadvertisements, podcasts, vlogs, and blogs. The \ncommunication tends to be bidirectional in nature. E.g. \ncompanies posting product descriptions, customers posting \nproduct reviews, and company reacting to the reviews\n",
+            "Source: https://www.whackedout.in/blog/2019/08/09/how-digital-media-is-overtaking-traditional-media/ \n",
+            "© National University of Singapore. All Rights Reserved.\n",
+            "5\n"
+        ]
+    ],
+    "Page_5": [
+        [
+            "image",
+            "image",
+            "“Future of New Media” from Year 2009\n",
+            "image",
+            "Today’s social experience is disjointed because consumers \nhave separate identities in each social network they visit. \n",
+            "Internet identity is just the beginning of this transformation, \nin which the Web will evolve step by step from separate \nsocial sites into a shared social experience. Consumers will \nrely on their peers as they make online decisions, whether \nor not brands choose to participate. \n",
+            "Socially connected consumers will strengthen communities \nand shift power away from brands and CRM systems; \neventually this will result in empowered communities \ndefining the next generation of products.\n",
+            "Source: https://www.forrester.com/blogs/09-04-27-the_future_of_the_social_web_in_five_eras/ \n",
+            "© National University of Singapore. All Rights Reserved.\n",
+            "6\n"
+        ],
+        [
+            "image",
+            "image",
+            [
+                "GEDINH+Calibri",
+                36.0
+            ],
+            "image",
+            [
+                24.0,
+                "GEDINH+Calibri",
+                "ZJTXTV+Calibri-Bold"
+            ],
+            [
+                24.0,
+                "GEDINH+Calibri",
+                "ZJTXTV+Calibri-Bold"
+            ],
+            [
+                "ZJTXTV+Calibri-Bold",
+                "GEDINH+Calibri",
+                23.999999999999986,
+                24.0,
+                24.000000000000014
+            ],
+            [
+                "GEDINH+Calibri",
+                14.04
+            ],
+            [
+                "GEDINH+Calibri",
+                12.0
+            ],
+            [
+                "GEDINH+Calibri",
+                12.0
+            ]
+        ],
+        [
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "April 2009 “The Future Of The Social Web”\nThe Five Eras Of The Social Web\n\nEra of social relationships:\n\nSocial metworks, Era of social Social networks\ncfthe, hap\ncS\nSocial networks: mek ‘Social networks.\n\nSocial metworks Era of social commerce Social networks\n\n¥ ‘be “Ss\n"
+        ],
+        [],
+        [
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "“Future of New Media” from Year 2009\n",
+            "April 2009 “The Future Of The Social Web”\nThe Five Eras Of The Social Web\n\nEra of social relationships:\n\nSocial metworks, Era of social Social networks\ncfthe, hap\ncS\nSocial networks: mek ‘Social networks.\n\nSocial metworks Era of social commerce Social networks\n\n¥ ‘be “Ss\n",
+            "Today’s social experience is disjointed because consumers \nhave separate identities in each social network they visit. \n",
+            "Internet identity is just the beginning of this transformation, \nin which the Web will evolve step by step from separate \nsocial sites into a shared social experience. Consumers will \nrely on their peers as they make online decisions, whether \nor not brands choose to participate. \n",
+            "Socially connected consumers will strengthen communities \nand shift power away from brands and CRM systems; \neventually this will result in empowered communities \ndefining the next generation of products.\n",
+            "Source: https://www.forrester.com/blogs/09-04-27-the_future_of_the_social_web_in_five_eras/ \n",
+            "© National University of Singapore. All Rights Reserved.\n",
+            "6\n"
+        ]
+    ],
+    "Page_6": [
+        [
+            "table",
+            "image",
+            "image",
+            "Overview of Sentiment Analysis\n",
+            "image",
+            "• Sentiment analysis, also known as Sentiment Mining or \n",
+            "Opinion Mining, is the field of study that analyzes \npeople’s opinions, sentiments, appraisals, attitudes, and \nemotions toward entities and their attributes expressed \nin written text\n",
+            "• The entities can be products, services, organizations, \n",
+            "individuals, events, issues, or topics. The field represents \na large problem space\n",
+            "• Since existing research and applications of sentiment \nanalysis have focused primarily on written text, it has \nbeen an active research field of Natural Language \nProcessing (NLP)\n",
+            "Examples of Entities Annotated \nfor Sentiment Analysis\n",
+            "© National University of Singapore. All Rights Reserved.\n",
+            "7\n"
+        ],
+        [
+            "table",
+            "image",
+            "image",
+            [
+                "GEDINH+Calibri",
+                36.0
+            ],
+            "image",
+            [
+                24.0,
+                "GEDINH+Calibri",
+                "RFQWLL+ArialMT"
+            ],
+            [
+                24.0,
+                "GEDINH+Calibri",
+                "ZJTXTV+Calibri-Bold"
+            ],
+            [
+                24.0,
+                "GEDINH+Calibri",
+                "RFQWLL+ArialMT"
+            ],
+            [
+                24.0,
+                "GEDINH+Calibri"
+            ],
+            [
+                "ZJTXTV+Calibri-Bold",
+                "GEDINH+Calibri",
+                23.999999999999986,
+                24.0,
+                24.000000000000014,
+                "RFQWLL+ArialMT"
+            ],
+            [
+                "GEDINH+Calibri",
+                15.96
+            ],
+            [
+                "GEDINH+Calibri",
+                12.0
+            ],
+            [
+                "GEDINH+Calibri",
+                12.0
+            ]
+        ],
+        [
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "oon Oo OW F&F WOW ND + CO\n\n-\n°\n\nus LOCATION\n\nDonald Trump PERSON\nIndia LOCATION\n\nTrump PERSON\nSingapore LOCATION\nKim Jong-un PERSON\n\nTrudeau PERSON\nChina LOCATION\n\nNorth Korean LOCATION\nChhetri PERSON\n\nNamed entities and types\n\n- Foon an HF Hh G6 ©\n"
+        ],
+        [
+            "|||"
+        ],
+        [
+            "|||",
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "Overview of Sentiment Analysis\n",
+            "oon Oo OW F&F WOW ND + CO\n\n-\n°\n\nus LOCATION\n\nDonald Trump PERSON\nIndia LOCATION\n\nTrump PERSON\nSingapore LOCATION\nKim Jong-un PERSON\n\nTrudeau PERSON\nChina LOCATION\n\nNorth Korean LOCATION\nChhetri PERSON\n\nNamed entities and types\n\n- Foon an HF Hh G6 ©\n",
+            "• Sentiment analysis, also known as Sentiment Mining or \n",
+            "Opinion Mining, is the field of study that analyzes \npeople’s opinions, sentiments, appraisals, attitudes, and \nemotions toward entities and their attributes expressed \nin written text\n",
+            "• The entities can be products, services, organizations, \n",
+            "individuals, events, issues, or topics. The field represents \na large problem space\n",
+            "• Since existing research and applications of sentiment \nanalysis have focused primarily on written text, it has \nbeen an active research field of Natural Language \nProcessing (NLP)\n",
+            "Examples of Entities Annotated \nfor Sentiment Analysis\n",
+            "© National University of Singapore. All Rights Reserved.\n",
+            "7\n"
+        ]
+    ],
+    "Page_7": [
+        [
+            "image",
+            "image",
+            "Definition of an Opinion\n",
+            "• Since Sentiment Analysis is about analyzing people’s \n",
+            "opinions, we need to define what an opinion means in \nthis context\n• For example:\n",
+            "image",
+            "1.\n",
+            "sentiment\n(e.g. positive, negative, neutral)\n",
+            "2.\n",
+            "feeling\n(e.g. angry, sad, happy)\n",
+            "image",
+            "judgement towards a matter\n(e.g. agree, disagree, unsure) \n",
+            "3.\n",
+            "4.\n",
+            "evaluation\n(e.g. good, bad, worth it)?\n",
+            "© National University of Singapore. All Rights Reserved.\n",
+            "8\n"
+        ],
+        [
+            "image",
+            "image",
+            [
+                "GEDINH+Calibri",
+                36.0
+            ],
+            [
+                24.0,
+                "GEDINH+Calibri",
+                "RFQWLL+ArialMT"
+            ],
+            [
+                24.0,
+                "GEDINH+Calibri",
+                "RFQWLL+ArialMT"
+            ],
+            "image",
+            [
+                "ZJTXTV+Calibri-Bold",
+                20.04000000000002
+            ],
+            [
+                "ZJTXTV+Calibri-Bold",
+                "GEDINH+Calibri",
+                20.04000000000002,
+                20.039999999999964
+            ],
+            [
+                "ZJTXTV+Calibri-Bold",
+                20.039999999999992
+            ],
+            [
+                "ZJTXTV+Calibri-Bold",
+                "GEDINH+Calibri",
+                20.039999999999992
+            ],
+            "image",
+            [
+                "ZJTXTV+Calibri-Bold",
+                "GEDINH+Calibri",
+                20.039999999999992
+            ],
+            [
+                "ZJTXTV+Calibri-Bold",
+                20.039999999999992
+            ],
+            [
+                "ZJTXTV+Calibri-Bold",
+                20.040000000000006
+            ],
+            [
+                "ZJTXTV+Calibri-Bold",
+                "GEDINH+Calibri",
+                20.040000000000006
+            ],
+            [
+                "GEDINH+Calibri",
+                12.0
+            ],
+            [
+                "GEDINH+Calibri",
+                12.0
+            ]
+        ],
+        [
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "",
+            ""
+        ],
+        [],
+        [
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "Definition of an Opinion\n",
+            "• Since Sentiment Analysis is about analyzing people’s \n",
+            "opinions, we need to define what an opinion means in \nthis context\n• For example:\n",
+            "",
+            "1.\n",
+            "sentiment\n(e.g. positive, negative, neutral)\n",
+            "2.\n",
+            "feeling\n(e.g. angry, sad, happy)\n",
+            "",
+            "judgement towards a matter\n(e.g. agree, disagree, unsure) \n",
+            "3.\n",
+            "4.\n",
+            "evaluation\n(e.g. good, bad, worth it)?\n",
+            "© National University of Singapore. All Rights Reserved.\n",
+            "8\n"
+        ]
+    ],
+    "Page_8": [
+        [
+            "image",
+            "image",
+            "Definition of an Opinion\n",
+            "Formally, an opinion is defined as a quintuple:\n",
+            "(ei, aij, sijkl, hk, tl), \n",
+            "where \nei is the name of an entity, \naij is an aspect of ei, \nsijkl is the sentiment on aspect aij of entity ei, \nhk denotes the opinion holder, and \ntl is the time when the opinion is expressed by hk.\n",
+            "Furthermore, the sentiment sijkl can be positive, negative, or neutral, or expressed with \ndifferent strength/intensity levels\n",
+            "© National University of Singapore. All Rights Reserved.\n",
+            "9\n"
+        ],
+        [
+            "image",
+            "image",
+            [
+                "GEDINH+Calibri",
+                36.0
+            ],
+            [
+                "GEDINH+Calibri",
+                21.95999999999998
+            ],
+            [
+                "ZZPSTV+Calibri-Italic",
+                12.71999999999997,
+                "GEDINH+Calibri",
+                18.960000000000036,
+                18.95999999999998
+            ],
+            [
+                "ZZPSTV+Calibri-Italic",
+                "ZJTXTV+Calibri-Bold",
+                13.319999999999993,
+                "GEDINH+Calibri",
+                20.039999999999964,
+                20.04000000000002,
+                20.039999999999992
+            ],
+            [
+                "ZZPSTV+Calibri-Italic",
+                14.64,
+                "GEDINH+Calibri",
+                21.960000000000008,
+                21.959999999999994
+            ],
+            [
+                "GEDINH+Calibri",
+                12.0
+            ],
+            [
+                "GEDINH+Calibri",
+                12.0
+            ]
+        ],
+        [
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "National University\nof Singapore\n\nNUS | ISS=\n\n"
+        ],
+        [],
+        [
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "Definition of an Opinion\n",
+            "Formally, an opinion is defined as a quintuple:\n",
+            "(ei, aij, sijkl, hk, tl), \n",
+            "where \nei is the name of an entity, \naij is an aspect of ei, \nsijkl is the sentiment on aspect aij of entity ei, \nhk denotes the opinion holder, and \ntl is the time when the opinion is expressed by hk.\n",
+            "Furthermore, the sentiment sijkl can be positive, negative, or neutral, or expressed with \ndifferent strength/intensity levels\n",
+            "© National University of Singapore. All Rights Reserved.\n",
+            "9\n"
+        ]
+    ],
+    "Page_9": [
+        [
+            "table",
+            "image",
+            "image",
+            "What does Sentiment Analysis typically involve?\n",
+            "table"
+        ],
+        [
+            "table",
+            "image",
+            "image",
+            [
+                "GEDINH+Calibri",
+                36.0
+            ],
+            "table"
+        ],
+        [
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "National University\nof Singapore\n\nNUS | ISS=\n\n"
+        ],
+        [
+            "|None||None|\n|4. Opinion Summ|None|arization|",
+            "|1. Subjectivity Classific|None|ation||\n|None|None||None|\n|None|2. Polarity Classific|None|ation|"
+        ],
+        [
+            "|None||None|\n|4. Opinion Summ|None|arization|",
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "What does Sentiment Analysis typically involve?\n",
+            "|1. Subjectivity Classific|None|ation||\n|None|None||None|\n|None|2. Polarity Classific|None|ation|"
+        ]
+    ],
+    "Page_10": [
+        [
+            "table",
+            "image",
+            "image",
+            "Case Study- Smartphone Reviews\n",
+            "table",
+            "image",
+            "image",
+            "image"
+        ],
+        [
+            "table",
+            "image",
+            "image",
+            [
+                "GEDINH+Calibri",
+                36.0
+            ],
+            "table",
+            "image",
+            "image",
+            "image"
+        ],
+        [
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "GSM4rena\n\n",
+            "amsung Galaxy Z Fo\n\n© Released 2021, August 27\n\nO 21g, 6.4mm thickness\n\n<> Android 11, up to Android 12, One UI41\n@ 256GB/512GB storage, no card slot\n\n0 SS\n1.6\" 12MP\n1768x2208 pixels 2160p\n\n12GB RAM\n\nSnapdragon 888 5G\n\nB\n4400mAh\n\nLi-Po\n",
+            "EePee 11 Jun 2022 @sXxH\n\nE » Anonymous, 04 Jun 2022\npicture does NOT look = under display camera! + Fingerprint side-mounted not good!\nWhat? Also side mounted sensor is the fastest ive ever used, 10000x better than the UD crap.\nUnder display camera could be better hidden tho, ut can be painfully obvious sometimes\nREPLY\nAnonymous 04 Jun 2022 @gDe\npicture does NOT look = under display camera! + Fingerprint side-mounted not good!\nREPLY\n\n"
+        ],
+        [
+            "||\n||",
+            "|||"
+        ],
+        [
+            "||\n||",
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "Case Study- Smartphone Reviews\n",
+            "|||",
+            "GSM4rena\n\n",
+            "amsung Galaxy Z Fo\n\n© Released 2021, August 27\n\nO 21g, 6.4mm thickness\n\n<> Android 11, up to Android 12, One UI41\n@ 256GB/512GB storage, no card slot\n\n0 SS\n1.6\" 12MP\n1768x2208 pixels 2160p\n\n12GB RAM\n\nSnapdragon 888 5G\n\nB\n4400mAh\n\nLi-Po\n",
+            "EePee 11 Jun 2022 @sXxH\n\nE » Anonymous, 04 Jun 2022\npicture does NOT look = under display camera! + Fingerprint side-mounted not good!\nWhat? Also side mounted sensor is the fastest ive ever used, 10000x better than the UD crap.\nUnder display camera could be better hidden tho, ut can be painfully obvious sometimes\nREPLY\nAnonymous 04 Jun 2022 @gDe\npicture does NOT look = under display camera! + Fingerprint side-mounted not good!\nREPLY\n\n"
+        ]
+    ],
+    "Page_11": [
+        [
+            "table",
+            "image",
+            "image",
+            "1. Subjectivity Classification\n",
+            "• When we are performing sentiment analysis on \n",
+            "image",
+            "smartphone reviews, there is a need to distinguish \nbetween subjective and objective sentences. \n",
+            "• If a given sentence is classified as objective (e.g. “the \nphone has a 7.6 inch screen size”), we don’t have to \nperform any task to determine its polarity\n",
+            "• If the sentence is classified as subjective (e.g. “the phone \n",
+            "Source: Karamibekr, Mostafa & Ghorbani, Ali. (2013). A Structure \nfor Opinion in Social Domains. Proceedings - \nSocialCom/PASSAT/BigData/EconCom/BioMedCom 2013. 264-271. \n10.1109/SocialCom.2013.44. \n",
+            "has a large screen size”), we will have to use some \nmethods to determine its polarity (positive, negative, or \nneutral)\n",
+            "© National University of Singapore. All Rights Reserved.\n",
+            "12\n"
+        ],
+        [
+            "table",
+            "image",
+            "image",
+            [
+                "GEDINH+Calibri",
+                36.0
+            ],
+            [
+                "GEDINH+Calibri",
+                21.95999999999998,
+                "RFQWLL+ArialMT"
+            ],
+            "image",
+            [
+                "ZJTXTV+Calibri-Bold",
+                "GEDINH+Calibri",
+                21.95999999999998
+            ],
+            [
+                "ZZPSTV+Calibri-Italic",
+                "GEDINH+Calibri",
+                21.960000000000036,
+                21.95999999999998,
+                21.960000000000008,
+                "RFQWLL+ArialMT"
+            ],
+            [
+                "ZZPSTV+Calibri-Italic",
+                "GEDINH+Calibri",
+                21.95999999999998,
+                21.960000000000008,
+                "RFQWLL+ArialMT"
+            ],
+            [
+                "GEDINH+Calibri",
+                12.0
+            ],
+            [
+                "ZZPSTV+Calibri-Italic",
+                "GEDINH+Calibri",
+                21.95999999999998,
+                21.959999999999994,
+                21.960000000000008
+            ],
+            [
+                "GEDINH+Calibri",
+                12.0
+            ],
+            [
+                "GEDINH+Calibri",
+                12.0
+            ]
+        ],
+        [
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "_ Sentence |\n\nSubjective a\n( Related ) Objective\n\n[ For 1 Neutral p “ens 1\n\nExplicit Implicit Explicit Implicit\n( Strong ) ( Weak } ( Strong } ( Weak }\n\n"
+        ],
+        [
+            "|||"
+        ],
+        [
+            "|||",
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "1. Subjectivity Classification\n",
+            "• When we are performing sentiment analysis on \n",
+            "_ Sentence |\n\nSubjective a\n( Related ) Objective\n\n[ For 1 Neutral p “ens 1\n\nExplicit Implicit Explicit Implicit\n( Strong ) ( Weak } ( Strong } ( Weak }\n\n",
+            "smartphone reviews, there is a need to distinguish \nbetween subjective and objective sentences. \n",
+            "• If a given sentence is classified as objective (e.g. “the \nphone has a 7.6 inch screen size”), we don’t have to \nperform any task to determine its polarity\n",
+            "• If the sentence is classified as subjective (e.g. “the phone \n",
+            "Source: Karamibekr, Mostafa & Ghorbani, Ali. (2013). A Structure \nfor Opinion in Social Domains. Proceedings - \nSocialCom/PASSAT/BigData/EconCom/BioMedCom 2013. 264-271. \n10.1109/SocialCom.2013.44. \n",
+            "has a large screen size”), we will have to use some \nmethods to determine its polarity (positive, negative, or \nneutral)\n",
+            "© National University of Singapore. All Rights Reserved.\n",
+            "12\n"
+        ]
+    ],
+    "Page_12": [
+        [
+            "table",
+            "image",
+            "image",
+            "2. Polarity Classification\n",
+            "• If a sentence in the phone review is classified as \nsubjective, we will have to use some methods to \ndetermine its polarity\n",
+            "image",
+            "• One common method is to determine the sentiment \n",
+            "associated with a particular sentence \n(i.e. sentence-level sentiment classification)\n",
+            "• This method is usually built on important assumptions \n",
+            "such as:\n",
+            "1. A sentence expresses a single opinion \n2. A sentence is completed with punctuations such as “.” and “?”\n3. A sentence captures the opinion within a clear context\n",
+            "Source: http://www.whatafuture.com/microsoft-using-sentiment-\nanalysis-software-to-predict-product-reviews/ \n",
+            "© National University of Singapore. All Rights Reserved.\n",
+            "13\n"
+        ],
+        [
+            "table",
+            "image",
+            "image",
+            [
+                "GEDINH+Calibri",
+                36.0
+            ],
+            [
+                24.0,
+                "GEDINH+Calibri",
+                "RFQWLL+ArialMT"
+            ],
+            "image",
+            [
+                24.0,
+                "GEDINH+Calibri",
+                "RFQWLL+ArialMT"
+            ],
+            [
+                24.0,
+                "GEDINH+Calibri",
+                "ZJTXTV+Calibri-Bold"
+            ],
+            [
+                24.0,
+                "GEDINH+Calibri",
+                "RFQWLL+ArialMT"
+            ],
+            [
+                24.0,
+                "GEDINH+Calibri"
+            ],
+            [
+                "ZJTXTV+Calibri-Bold",
+                "GEDINH+Calibri",
+                20.040000000000006
+            ],
+            [
+                "GEDINH+Calibri",
+                9.960000000000008,
+                9.959999999999994
+            ],
+            [
+                "GEDINH+Calibri",
+                12.0
+            ],
+            [
+                "GEDINH+Calibri",
+                12.0
+            ]
+        ],
+        [
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "! The user\nand the\nscreen is very sharp. My only\n\ncomplaint is the battery is@@p\n\nPeepet tre Oprrord\nCommon Identifier\n\n(Pee ree Cpesian) Powtive Oervord\nCommon Identifier Domain kdemtifier\n"
+        ],
+        [
+            "|||"
+        ],
+        [
+            "|||",
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "2. Polarity Classification\n",
+            "• If a sentence in the phone review is classified as \nsubjective, we will have to use some methods to \ndetermine its polarity\n",
+            "! The user\nand the\nscreen is very sharp. My only\n\ncomplaint is the battery is@@p\n\nPeepet tre Oprrord\nCommon Identifier\n\n(Pee ree Cpesian) Powtive Oervord\nCommon Identifier Domain kdemtifier\n",
+            "• One common method is to determine the sentiment \n",
+            "associated with a particular sentence \n(i.e. sentence-level sentiment classification)\n",
+            "• This method is usually built on important assumptions \n",
+            "such as:\n",
+            "1. A sentence expresses a single opinion \n2. A sentence is completed with punctuations such as “.” and “?”\n3. A sentence captures the opinion within a clear context\n",
+            "Source: http://www.whatafuture.com/microsoft-using-sentiment-\nanalysis-software-to-predict-product-reviews/ \n",
+            "© National University of Singapore. All Rights Reserved.\n",
+            "13\n"
+        ]
+    ],
+    "Page_13": [
+        [
+            "image",
+            "image",
+            "3. Entity, Opinion Holder and Time Extraction\n",
+            "• In a collection of smartphone reviews, we have multiple entities \n",
+            "mentioned by multiple opinion holders at different time\n",
+            "image",
+            "• For example, different users may express their opinions on \n",
+            "different phone models based on different time of purchases. \nSome users may also change their opinions after using the \nphones for a while\n",
+            "• Furthermore, for each phone model, there can be multiple \n",
+            "Source: https://www.splunk.com/en_us/blog/tips-\nand-tricks/named-entity-recognition-and-\nextraction.html \n",
+            "aspects that the users can comment on \n",
+            "• For example, users may review different aspects of the entity \n",
+            "“Samsung Galaxy Fold3” such as screen size, battery ratings and \nOS version. The analysis of such review is also known as Aspect-\nbased Sentiment Analysis\n",
+            "© National University of Singapore. All Rights Reserved.\n",
+            "14\n"
+        ],
+        [
+            "image",
+            "image",
+            [
+                "GEDINH+Calibri",
+                36.0
+            ],
+            [
+                "ZJTXTV+Calibri-Bold",
+                "GEDINH+Calibri",
+                21.95999999999998,
+                "RFQWLL+ArialMT"
+            ],
+            [
+                "ZJTXTV+Calibri-Bold",
+                21.95999999999998
+            ],
+            "image",
+            [
+                "GEDINH+Calibri",
+                21.95999999999998,
+                "RFQWLL+ArialMT"
+            ],
+            [
+                "GEDINH+Calibri",
+                21.95999999999998
+            ],
+            [
+                "ZJTXTV+Calibri-Bold",
+                "GEDINH+Calibri",
+                21.960000000000008,
+                "RFQWLL+ArialMT"
+            ],
+            [
+                "GEDINH+Calibri",
+                12.0
+            ],
+            [
+                "ZJTXTV+Calibri-Bold",
+                "GEDINH+Calibri",
+                21.960000000000008
+            ],
+            [
+                "GEDINH+Calibri",
+                21.95999999999998,
+                21.960000000000008,
+                "RFQWLL+ArialMT"
+            ],
+            [
+                "ZJTXTV+Calibri-Bold",
+                "GEDINH+Calibri",
+                21.960000000000008,
+                21.959999999999994
+            ],
+            [
+                "GEDINH+Calibri",
+                12.0
+            ],
+            [
+                "GEDINH+Calibri",
+                12.0
+            ]
+        ],
+        [
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "Automatically find\n\nnames of people, places,\nand organizations in text\n\nacross many languages.\n\n"
+        ],
+        [],
+        [
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "3. Entity, Opinion Holder and Time Extraction\n",
+            "• In a collection of smartphone reviews, we have multiple entities \n",
+            "mentioned by multiple opinion holders at different time\n",
+            "Automatically find\n\nnames of people, places,\nand organizations in text\n\nacross many languages.\n\n",
+            "• For example, different users may express their opinions on \n",
+            "different phone models based on different time of purchases. \nSome users may also change their opinions after using the \nphones for a while\n",
+            "• Furthermore, for each phone model, there can be multiple \n",
+            "Source: https://www.splunk.com/en_us/blog/tips-\nand-tricks/named-entity-recognition-and-\nextraction.html \n",
+            "aspects that the users can comment on \n",
+            "• For example, users may review different aspects of the entity \n",
+            "“Samsung Galaxy Fold3” such as screen size, battery ratings and \nOS version. The analysis of such review is also known as Aspect-\nbased Sentiment Analysis\n",
+            "© National University of Singapore. All Rights Reserved.\n",
+            "14\n"
+        ]
+    ],
+    "Page_14": [
+        [
+            "table",
+            "image",
+            "image",
+            "Aspect-based Sentiment Analysis (ABSA)\n",
+            "image",
+            "• In Aspect-based Sentiment Analysis (ABSA), those aspects relating \n",
+            "to an entity are extracted. Sentiments associated with these \naspects are analyzed as they evolved over time\n",
+            "• Thus, ABSA can be seen as the process of building a \n",
+            "comprehensive opinion summary at the aspect level, which \nprovides useful fine-grained sentiment information for \ndownstream applications (e.g. for Opinion Summarization)\n",
+            "• Some key tasks of ABSA includes extraction and categorization of \n",
+            "entities and aspects (including entity and aspect resolution), \nsentiment classification and identification of opinion holders\n",
+            "Ref: Zhang, W., Li, X., Deng, Y., Bing, L., & Lam, W. (2022). A Survey on Aspect-Based Sentiment Analysis: Tasks, Methods, and Challenges. arXiv preprint arXiv:2203.01054.\n",
+            "© National University of Singapore. All Rights Reserved.\n",
+            "15\n"
+        ],
+        [
+            "table",
+            "image",
+            "image",
+            [
+                "GEDINH+Calibri",
+                36.0
+            ],
+            "image",
+            [
+                "GEDINH+Calibri",
+                21.95999999999998,
+                "RFQWLL+ArialMT"
+            ],
+            [
+                "GEDINH+Calibri",
+                21.95999999999998
+            ],
+            [
+                "GEDINH+Calibri",
+                21.95999999999998,
+                "RFQWLL+ArialMT"
+            ],
+            [
+                "ZJTXTV+Calibri-Bold",
+                "GEDINH+Calibri",
+                21.95999999999998
+            ],
+            [
+                "GEDINH+Calibri",
+                21.95999999999998,
+                21.960000000000008,
+                "RFQWLL+ArialMT"
+            ],
+            [
+                "GEDINH+Calibri",
+                21.959999999999994,
+                21.95999999999998
+            ],
+            [
+                "GEDINH+Calibri",
+                12.0
+            ],
+            [
+                "GEDINH+Calibri",
+                12.0
+            ],
+            [
+                "GEDINH+Calibri",
+                12.0
+            ]
+        ],
+        [
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "Aspect-Based Summaries\n\nAspects Ratings\n\nDesign MEM = 4.0/5\nScreen 2.0/5\n\nSound 3.0/5\nBattery MN 4.5/5\n\nsmartphone xyz\n\n"
+        ],
+        [
+            "|||"
+        ],
+        [
+            "|||",
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "Aspect-based Sentiment Analysis (ABSA)\n",
+            "Aspect-Based Summaries\n\nAspects Ratings\n\nDesign MEM = 4.0/5\nScreen 2.0/5\n\nSound 3.0/5\nBattery MN 4.5/5\n\nsmartphone xyz\n\n",
+            "• In Aspect-based Sentiment Analysis (ABSA), those aspects relating \n",
+            "to an entity are extracted. Sentiments associated with these \naspects are analyzed as they evolved over time\n",
+            "• Thus, ABSA can be seen as the process of building a \n",
+            "comprehensive opinion summary at the aspect level, which \nprovides useful fine-grained sentiment information for \ndownstream applications (e.g. for Opinion Summarization)\n",
+            "• Some key tasks of ABSA includes extraction and categorization of \n",
+            "entities and aspects (including entity and aspect resolution), \nsentiment classification and identification of opinion holders\n",
+            "Ref: Zhang, W., Li, X., Deng, Y., Bing, L., & Lam, W. (2022). A Survey on Aspect-Based Sentiment Analysis: Tasks, Methods, and Challenges. arXiv preprint arXiv:2203.01054.\n",
+            "© National University of Singapore. All Rights Reserved.\n",
+            "15\n"
+        ]
+    ],
+    "Page_15": [
+        [
+            "table",
+            "image",
+            "image",
+            "4. Opinion Summarization\n",
+            "image",
+            "• Opinion Summarization is an approach to aggregate \nand summarize the opinions from a large number of\nusers’ phone reviews\n",
+            "• Traditional text summarization typically involves \n",
+            "selection and aggregation of important sentences \n(e.g. Extractive and Abstractive summarization)\n",
+            "image",
+            "• In contrast, opinion summarization aims to provide a \nquantitative summary of the sentiments regarding \nentities and their respective aspects in a systematic \nmanner\n",
+            "• It is often used for Sentiment Visualization \n(More about this in subsequent slides)\n",
+            "Source: Liu, B. (2012). Sentiment analysis and opinion mining. Synthesis \nlectures on human language technologies, 5(1), 1-167.\n",
+            "© National University of Singapore. All Rights Reserved.\n",
+            "16\n"
+        ],
+        [
+            "table",
+            "image",
+            "image",
+            [
+                "GEDINH+Calibri",
+                36.0
+            ],
+            "image",
+            [
+                "ZJTXTV+Calibri-Bold",
+                "GEDINH+Calibri",
+                21.95999999999998,
+                "RFQWLL+ArialMT"
+            ],
+            [
+                "GEDINH+Calibri",
+                21.95999999999998,
+                "RFQWLL+ArialMT"
+            ],
+            [
+                "GEDINH+Calibri",
+                21.95999999999998
+            ],
+            "image",
+            [
+                "ZJTXTV+Calibri-Bold",
+                "GEDINH+Calibri",
+                21.95999999999998,
+                21.960000000000008,
+                21.959999999999994,
+                "RFQWLL+ArialMT"
+            ],
+            [
+                "GEDINH+Calibri",
+                21.959999999999994,
+                21.96,
+                21.960000000000008,
+                "RFQWLL+ArialMT"
+            ],
+            [
+                "ZZPSTV+Calibri-Italic",
+                "GEDINH+Calibri",
+                9.96,
+                9.959999999999994
+            ],
+            [
+                "GEDINH+Calibri",
+                12.0
+            ],
+            [
+                "GEDINH+Calibri",
+                12.0
+            ]
+        ],
+        [
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "Aspect: GENERAL\n\nPositive: 105\nNegative: 12\nAspect: Picture quality\nPositive: 95\nNegative: 10\n\nAspect: Battery life\nPositive: 50\n\nNegative: 9\n\n<individual review sentences>\n<individual review sentences>\n\n<individual review sentences>\n<individual review sentences>\n\n<individual review sentences>\n<individual review sentences>\n\n",
+            "Positive GENERAL Picture Battery —_ Lens Weight\n\nry\n\nNegative Model 1 [J Model 2\n\n"
+        ],
+        [
+            "|||"
+        ],
+        [
+            "|||",
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "4. Opinion Summarization\n",
+            "Aspect: GENERAL\n\nPositive: 105\nNegative: 12\nAspect: Picture quality\nPositive: 95\nNegative: 10\n\nAspect: Battery life\nPositive: 50\n\nNegative: 9\n\n<individual review sentences>\n<individual review sentences>\n\n<individual review sentences>\n<individual review sentences>\n\n<individual review sentences>\n<individual review sentences>\n\n",
+            "• Opinion Summarization is an approach to aggregate \nand summarize the opinions from a large number of\nusers’ phone reviews\n",
+            "• Traditional text summarization typically involves \n",
+            "selection and aggregation of important sentences \n(e.g. Extractive and Abstractive summarization)\n",
+            "Positive GENERAL Picture Battery —_ Lens Weight\n\nry\n\nNegative Model 1 [J Model 2\n\n",
+            "• In contrast, opinion summarization aims to provide a \nquantitative summary of the sentiments regarding \nentities and their respective aspects in a systematic \nmanner\n",
+            "• It is often used for Sentiment Visualization \n(More about this in subsequent slides)\n",
+            "Source: Liu, B. (2012). Sentiment analysis and opinion mining. Synthesis \nlectures on human language technologies, 5(1), 1-167.\n",
+            "© National University of Singapore. All Rights Reserved.\n",
+            "16\n"
+        ]
+    ],
+    "Page_16": [
+        [
+            "table",
+            "image",
+            "image",
+            "5. Sarcasm Detection\n",
+            "image",
+            "• Sarcasm is a sophisticated form of speech act in \n",
+            "which the opinion holder says something positive, \none actually means something negative, and vice \nversa\n",
+            "• Sarcastic sentences are very difficult to deal with in \n",
+            "sentiment analysis because common sense \nknowledge and discourse analysis are often required \nto recognize them\n",
+            "image",
+            "• While sarcastic sentences are not common in formal \n",
+            "phone reviews, but they can be found quite \nfrequently in the online discussions and user reviews\n",
+            "Link: https://aclanthology.org/C16-1231/ \n",
+            "© National University of Singapore. All Rights Reserved.\n",
+            "17\n"
+        ],
+        [
+            "table",
+            "image",
+            "image",
+            [
+                "GEDINH+Calibri",
+                36.0
+            ],
+            "image",
+            [
+                "GEDINH+Calibri",
+                21.95999999999998,
+                "RFQWLL+ArialMT"
+            ],
+            [
+                "GEDINH+Calibri",
+                21.95999999999998
+            ],
+            [
+                "GEDINH+Calibri",
+                21.95999999999998,
+                "RFQWLL+ArialMT"
+            ],
+            [
+                "GEDINH+Calibri",
+                21.95999999999998
+            ],
+            "image",
+            [
+                "GEDINH+Calibri",
+                21.95999999999998,
+                21.960000000000008,
+                "RFQWLL+ArialMT"
+            ],
+            [
+                "GEDINH+Calibri",
+                21.959999999999994
+            ],
+            [
+                "GEDINH+Calibri",
+                20.039999999999992
+            ],
+            [
+                "GEDINH+Calibri",
+                12.0
+            ],
+            [
+                "GEDINH+Calibri",
+                12.0
+            ]
+        ],
+        [
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "sa) Mrsmartwatch YT @MrsmartwatchYT - Apr 16, 2019 y\nIs it bad that the more videos | watch on the Galaxy Fold, the more\nI'm starting to like it......what's wrong with me?!\n\nBenjy | BenObi @ ™\n@BenObi2000 : Follow\n\n| love the crease in the middle of the screen, the Notch is\ngreat too!\n\nOh and who can forget the bezels when it's folded!\n6:20 PM - Apr 16, 2019 @\n\nO4 © Reply .% Share\n\nRead 2 replies\n\n",
+            "Tweet Sarcasm Detection Using Deep Neural Network\nMeishan Zhang, Yue Zhang, Guohong Fu\n\nAbstract\n\nSarcasm detection has been modeled as a binary document classification task, with rich features being defined manually\nover input documents. Traditional models employ discrete manual features to address the task, with much research effect\nbeing devoted to the design of effective feature templates. We investigate the use of neural network for tweet sarcasm\ndetection, and compare the effects of the continuous automatic features with discrete manual features. In particular, we use\na bi-directional gated recurrent neural network to capture syntactic and semantic information over tweets locally, and a\npooling neural network to extract contextual features automatically from history tweets. Results show that neural features\ngive improved accuracies for sarcasm detection, with different error distributions compared with discrete manual features.\n\n"
+        ],
+        [
+            "|||"
+        ],
+        [
+            "|||",
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "5. Sarcasm Detection\n",
+            "sa) Mrsmartwatch YT @MrsmartwatchYT - Apr 16, 2019 y\nIs it bad that the more videos | watch on the Galaxy Fold, the more\nI'm starting to like it......what's wrong with me?!\n\nBenjy | BenObi @ ™\n@BenObi2000 : Follow\n\n| love the crease in the middle of the screen, the Notch is\ngreat too!\n\nOh and who can forget the bezels when it's folded!\n6:20 PM - Apr 16, 2019 @\n\nO4 © Reply .% Share\n\nRead 2 replies\n\n",
+            "• Sarcasm is a sophisticated form of speech act in \n",
+            "which the opinion holder says something positive, \none actually means something negative, and vice \nversa\n",
+            "• Sarcastic sentences are very difficult to deal with in \n",
+            "sentiment analysis because common sense \nknowledge and discourse analysis are often required \nto recognize them\n",
+            "Tweet Sarcasm Detection Using Deep Neural Network\nMeishan Zhang, Yue Zhang, Guohong Fu\n\nAbstract\n\nSarcasm detection has been modeled as a binary document classification task, with rich features being defined manually\nover input documents. Traditional models employ discrete manual features to address the task, with much research effect\nbeing devoted to the design of effective feature templates. We investigate the use of neural network for tweet sarcasm\ndetection, and compare the effects of the continuous automatic features with discrete manual features. In particular, we use\na bi-directional gated recurrent neural network to capture syntactic and semantic information over tweets locally, and a\npooling neural network to extract contextual features automatically from history tweets. Results show that neural features\ngive improved accuracies for sarcasm detection, with different error distributions compared with discrete manual features.\n\n",
+            "• While sarcastic sentences are not common in formal \n",
+            "phone reviews, but they can be found quite \nfrequently in the online discussions and user reviews\n",
+            "Link: https://aclanthology.org/C16-1231/ \n",
+            "© National University of Singapore. All Rights Reserved.\n",
+            "17\n"
+        ]
+    ],
+    "Page_17": [
+        [
+            "table",
+            "image",
+            "image",
+            "6. Coreference Resolution and Word Sense Disambiguation\n",
+            "• Coreference resolution is the task of finding all \n",
+            "image",
+            "expressions that refer to the same entity in a text. In \ndetermining opinion targets (e.g. Galaxy Fold 3 phone), \ncoreference resolution plays a major role because the \nopinion targets are frequently mentioned not in the \nsame sentences where sentiments are expressed\n",
+            "Coreference Resolution Example \nSource: https://towardsdatascience.com/most-popular-coreference-resolution-\nframeworks-574ba8a8cc2d \n",
+            "image",
+            "• Word-sense disambiguation is the process of \n",
+            "identifying the word sense of a word when the word \nappears in a text sequence with one or more context \nwords. This is especially tough in analyzing social media \nopinions, since the context words are often implicit\n",
+            "Word Sense Disambiguation Example \nSource: https://gofishdigital.com/blog/word-sense-disambiguation/ \n",
+            "© National University of Singapore. All Rights Reserved.\n",
+            "18\n"
+        ],
+        [
+            "table",
+            "image",
+            "image",
+            [
+                32.04000000000002,
+                "GEDINH+Calibri"
+            ],
+            [
+                "ZJTXTV+Calibri-Bold",
+                "GEDINH+Calibri",
+                21.95999999999998,
+                "RFQWLL+ArialMT"
+            ],
+            "image",
+            [
+                "ZJTXTV+Calibri-Bold",
+                "GEDINH+Calibri",
+                21.960000000000008,
+                21.95999999999998
+            ],
+            [
+                "GEDINH+Calibri",
+                18.0,
+                9.960000000000036
+            ],
+            "image",
+            [
+                "GEDINH+Calibri",
+                21.95999999999998,
+                21.960000000000008,
+                "RFQWLL+ArialMT"
+            ],
+            [
+                "ZJTXTV+Calibri-Bold",
+                "GEDINH+Calibri",
+                21.95999999999998,
+                21.959999999999994,
+                21.960000000000008,
+                21.96
+            ],
+            [
+                "GEDINH+Calibri",
+                18.0,
+                9.96
+            ],
+            [
+                "GEDINH+Calibri",
+                12.0
+            ],
+            [
+                "GEDINH+Calibri",
+                12.0
+            ]
+        ],
+        [
+            "National University\nof Singapore\n\na NUS | (Sc\n\nLAN\n",
+            "National University\nof Singapore\n\na NUS | (Sc\n\nLAN\n",
+            "was born on January 21 , 1953 , in Seattle , Washington . attended\n\nLakeside School , where befriended [EW Bill Gates|| . [79) {BJ Paull and [EM Bill) used a\n\nteletype terminal at Py their] high school , Lakeside ,| to develop\n\nprogramming skills\n\non several time - sharing computer systems .\n",
+            "id sentence top 10 predictions from LSTM sense\n\n1 yee Compensation is offe c sh, stock, equity. shares, Toans,\n\nand/or stock. benefits, awards, equivalents, deposits sense#!\n> The stock would be redeemed in five years, subject to bonds, debt, notes, shares, stock, balance,\n~___terms of the company’s debt. securities, rest, Notes, debentures\n: inventory, goods, parts, sales, inventories,\n3 ‘These stores sell excess stock or factory overruns - capacity, ducts, ofl: items, fuel sense#2\n4 OdF Soups are cooked with vegan ‘slock and seasonal foods, food, vegetables, meals, recipes, “3\ngeste. cheese, meat, chicken, pasta, milk cide\n\nition, Will receive sto reorg: ‘Shares, positions, equity, jobs, awards, rep-\nsaeery: coca, which will be named Ranker Industries Inc. __ resentation, stock, investments, roles, funds\n\nTable |: Top predictions of ‘stock’ in 5 sentences of different word senses\n\n"
+        ],
+        [
+            "||None|\n|None||\n|None|n Example /most-popular-coreference-resolution-|"
+        ],
+        [
+            "||None|\n|None||\n|None|n Example /most-popular-coreference-resolution-|",
+            "National University\nof Singapore\n\na NUS | (Sc\n\nLAN\n",
+            "National University\nof Singapore\n\na NUS | (Sc\n\nLAN\n",
+            "6. Coreference Resolution and Word Sense Disambiguation\n",
+            "• Coreference resolution is the task of finding all \n",
+            "was born on January 21 , 1953 , in Seattle , Washington . attended\n\nLakeside School , where befriended [EW Bill Gates|| . [79) {BJ Paull and [EM Bill) used a\n\nteletype terminal at Py their] high school , Lakeside ,| to develop\n\nprogramming skills\n\non several time - sharing computer systems .\n",
+            "expressions that refer to the same entity in a text. In \ndetermining opinion targets (e.g. Galaxy Fold 3 phone), \ncoreference resolution plays a major role because the \nopinion targets are frequently mentioned not in the \nsame sentences where sentiments are expressed\n",
+            "Coreference Resolution Example \nSource: https://towardsdatascience.com/most-popular-coreference-resolution-\nframeworks-574ba8a8cc2d \n",
+            "id sentence top 10 predictions from LSTM sense\n\n1 yee Compensation is offe c sh, stock, equity. shares, Toans,\n\nand/or stock. benefits, awards, equivalents, deposits sense#!\n> The stock would be redeemed in five years, subject to bonds, debt, notes, shares, stock, balance,\n~___terms of the company’s debt. securities, rest, Notes, debentures\n: inventory, goods, parts, sales, inventories,\n3 ‘These stores sell excess stock or factory overruns - capacity, ducts, ofl: items, fuel sense#2\n4 OdF Soups are cooked with vegan ‘slock and seasonal foods, food, vegetables, meals, recipes, “3\ngeste. cheese, meat, chicken, pasta, milk cide\n\nition, Will receive sto reorg: ‘Shares, positions, equity, jobs, awards, rep-\nsaeery: coca, which will be named Ranker Industries Inc. __ resentation, stock, investments, roles, funds\n\nTable |: Top predictions of ‘stock’ in 5 sentences of different word senses\n\n",
+            "• Word-sense disambiguation is the process of \n",
+            "identifying the word sense of a word when the word \nappears in a text sequence with one or more context \nwords. This is especially tough in analyzing social media \nopinions, since the context words are often implicit\n",
+            "Word Sense Disambiguation Example \nSource: https://gofishdigital.com/blog/word-sense-disambiguation/ \n",
+            "© National University of Singapore. All Rights Reserved.\n",
+            "18\n"
+        ]
+    ],
+    "Page_18": [
+        [
+            "table",
+            "image",
+            "image",
+            "7. Opinion Search and Retrieval\n",
+            "• Frequently, we are interested to search and retrieve opinions about an \n",
+            "image",
+            "entity or topic, similar to how we do Google or Bing searches. However, this \nturns out to be not so straightforward\n",
+            "• Similar to a general web search, an opinion search needs to perform two \n",
+            "main tasks: \n",
+            "1.\n2.\n",
+            "Retrieve documents or sentences relevant to the user query\nRank the retrieved documents or sentences \n",
+            "• However, opinion retrieval involves two subtasks:\n",
+            "1.\n2.\n",
+            "Find documents or sentences that are relevant to the query\nDetermine whether they express opinions on the entity and/or entity \naspect and whether those opinions are positive or negative\n",
+            "• Traditional web search engines rank web pages based on authority and \n",
+            "relevance scores, but not based on sentiment scores. Thus, the top results \ndo not capture the natural distribution of positive and negative sentiments \nof the whole population in a summarized form\n© National University of Singapore. All Rights Reserved.\n",
+            "19\n"
+        ],
+        [
+            "table",
+            "image",
+            "image",
+            [
+                "GEDINH+Calibri",
+                36.0
+            ],
+            [
+                "GEDINH+Calibri",
+                18.95999999999998,
+                18.960000000000036,
+                "RFQWLL+ArialMT"
+            ],
+            "image",
+            [
+                "GEDINH+Calibri",
+                18.960000000000036
+            ],
+            [
+                "ZJTXTV+Calibri-Bold",
+                "GEDINH+Calibri",
+                18.95999999999998,
+                18.960000000000036,
+                "RFQWLL+ArialMT"
+            ],
+            [
+                "GEDINH+Calibri",
+                18.960000000000036
+            ],
+            [
+                "GEDINH+Calibri",
+                18.0
+            ],
+            [
+                "GEDINH+Calibri",
+                18.0
+            ],
+            [
+                "ZJTXTV+Calibri-Bold",
+                "GEDINH+Calibri",
+                18.960000000000008,
+                18.95999999999998,
+                "RFQWLL+ArialMT"
+            ],
+            [
+                "GEDINH+Calibri",
+                18.0,
+                17.99999999999997
+            ],
+            [
+                "GEDINH+Calibri",
+                18.0,
+                17.99999999999997
+            ],
+            [
+                "ZJTXTV+Calibri-Bold",
+                "GEDINH+Calibri",
+                18.960000000000008,
+                "RFQWLL+ArialMT"
+            ],
+            [
+                "ZJTXTV+Calibri-Bold",
+                12.0,
+                "GEDINH+Calibri",
+                18.960000000000008,
+                18.959999999999994,
+                18.96
+            ],
+            [
+                "GEDINH+Calibri",
+                12.0
+            ]
+        ],
+        [
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "negative sentiments about galaxy fold 3 x u som\n\nQ All @images News @ Shopping (Videos i More Tools\n\nAbout 3,660,000 results (0.71 seconds)\n\n®) Videos\n\n1 WAS WRONG!!! Samsung Galaxy Z Fold 3\n\nYouTube - Tech Gear Talk\n6 Sept 2021\n\n10 key moments in this video\n\noe . oe . — - .\n\nFrom 00:41 From 01:19 From 03:03 From 05:51 From 06:\n\nDesign Weight Protecting the Split Keyboard Pinning i\nPhone Edge Panel\n\nGalaxy Z Fold 3 Review: Keep It or Return It? | Painfully\n\noe, YouTube - Jason T. Lewis (PAINFULLY HONEST TECH)\nMere > Oct 2021\n\nGalaxy Z Fold3 Battery Life is AWFUL so far...\n\nYouTube - GregglesTV\n1071 \\ preview inne\n\nBEI 121 eres intisvieo 2\n\nThe Good and The Bad on Galaxy Z Fold 3| GTVDR155\n\nYouTube - GregglesTV\n10 May 2021\n\n10 key moments in this video .\n\n"
+        ],
+        [
+            "|||"
+        ],
+        [
+            "|||",
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "7. Opinion Search and Retrieval\n",
+            "• Frequently, we are interested to search and retrieve opinions about an \n",
+            "negative sentiments about galaxy fold 3 x u som\n\nQ All @images News @ Shopping (Videos i More Tools\n\nAbout 3,660,000 results (0.71 seconds)\n\n®) Videos\n\n1 WAS WRONG!!! Samsung Galaxy Z Fold 3\n\nYouTube - Tech Gear Talk\n6 Sept 2021\n\n10 key moments in this video\n\noe . oe . — - .\n\nFrom 00:41 From 01:19 From 03:03 From 05:51 From 06:\n\nDesign Weight Protecting the Split Keyboard Pinning i\nPhone Edge Panel\n\nGalaxy Z Fold 3 Review: Keep It or Return It? | Painfully\n\noe, YouTube - Jason T. Lewis (PAINFULLY HONEST TECH)\nMere > Oct 2021\n\nGalaxy Z Fold3 Battery Life is AWFUL so far...\n\nYouTube - GregglesTV\n1071 \\ preview inne\n\nBEI 121 eres intisvieo 2\n\nThe Good and The Bad on Galaxy Z Fold 3| GTVDR155\n\nYouTube - GregglesTV\n10 May 2021\n\n10 key moments in this video .\n\n",
+            "entity or topic, similar to how we do Google or Bing searches. However, this \nturns out to be not so straightforward\n",
+            "• Similar to a general web search, an opinion search needs to perform two \n",
+            "main tasks: \n",
+            "1.\n2.\n",
+            "Retrieve documents or sentences relevant to the user query\nRank the retrieved documents or sentences \n",
+            "• However, opinion retrieval involves two subtasks:\n",
+            "1.\n2.\n",
+            "Find documents or sentences that are relevant to the query\nDetermine whether they express opinions on the entity and/or entity \naspect and whether those opinions are positive or negative\n",
+            "• Traditional web search engines rank web pages based on authority and \n",
+            "relevance scores, but not based on sentiment scores. Thus, the top results \ndo not capture the natural distribution of positive and negative sentiments \nof the whole population in a summarized form\n© National University of Singapore. All Rights Reserved.\n",
+            "19\n"
+        ]
+    ],
+    "Page_19": [
+        [
+            "table",
+            "image",
+            "image",
+            "8. Opinion Spam Detection\n",
+            "image",
+            "• Opinions in reviews or social feeds are increasingly used by individuals \nand organizations to make decisions. Positive opinions often mean \nprofit for businesses, and this provides strong incentives for imposters \nto post fake reviews to promote or to discredit target products or \nservices. \n",
+            "• Such individuals are called opinion spammers and their activities are \n",
+            "Source: https://www.wsj.com/articles/how-to-spot-fake-\nreviews-and-shady-ratings-on-amazon-11658333513 \n",
+            "called opinion spamming\n",
+            "image",
+            "• There are two common approaches to detect opinion spam detection:\n",
+            "1. Burst Detection Detection – Looks for “dense areas” in the arrival pattern \n",
+            "of reviews\n",
+            "2. Review Spammer Detection - Reviewer modeling to infer the real \n",
+            "Source: https://gizmodo.com/reviews-amazon-online-\nshopping-1849318757 \n",
+            "identities of reviewers\n",
+            "Ref: Chapter 9, Pozzi, F., Fersini, E., Messina, E., & Liu, B. (2016). Sentiment analysis in social networks. Morgan Kaufmann.\n",
+            "© National University of Singapore. All Rights Reserved.\n",
+            "20\n"
+        ],
+        [
+            "table",
+            "image",
+            "image",
+            [
+                "GEDINH+Calibri",
+                36.0
+            ],
+            "image",
+            [
+                "ZJTXTV+Calibri-Bold",
+                "GEDINH+Calibri",
+                20.039999999999964,
+                20.04000000000002,
+                "RFQWLL+ArialMT"
+            ],
+            [
+                "ZJTXTV+Calibri-Bold",
+                "GEDINH+Calibri",
+                20.039999999999992,
+                20.039999999999964,
+                "RFQWLL+ArialMT"
+            ],
+            [
+                "GEDINH+Calibri",
+                9.960000000000008
+            ],
+            [
+                "ZJTXTV+Calibri-Bold",
+                "GEDINH+Calibri",
+                20.039999999999992
+            ],
+            "image",
+            [
+                "GEDINH+Calibri",
+                20.039999999999992,
+                "RFQWLL+ArialMT"
+            ],
+            [
+                "GEDINH+Calibri",
+                17.99999999999997
+            ],
+            [
+                "GEDINH+Calibri",
+                18.0
+            ],
+            [
+                "GEDINH+Calibri",
+                18.0
+            ],
+            [
+                "GEDINH+Calibri",
+                9.959999999999994,
+                9.960000000000008
+            ],
+            [
+                "GEDINH+Calibri",
+                18.0
+            ],
+            [
+                "GEDINH+Calibri",
+                10.559999999999995
+            ],
+            [
+                "GEDINH+Calibri",
+                12.0
+            ],
+            [
+                "GEDINH+Calibri",
+                12.0
+            ]
+        ],
+        [
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "How to Spot Fake Reviews and Shady Ratings\non Amazon\n\nSort by most recent reviews, check if older reviews were for completely different products and search for red\nflags such as ‘gift’ or free\"\n\nBy\nJpdted Ju\n\nBear aA rex\n\nListen to atte (2 minutes)\n\nAMZN 5.37% A is suing the administrators of more than 10,000 groups it\nsays on the shopping giant's platform, While Amazon didn't name\nthe admins, the company did identify one group, called “Amazon Product Review,\" which it\nsaid had more than 43,000 members.\n\n",
+            "Fake Reviews Online Might Make You Spend More on\nShittier Products\n\n‘Anew study found that fake reviews might get you to spend an extra 12 cents per dollar.\n\nBy Kevin Hutter | Fray 12. 050M | Comments (2)\n\nNow Delivering ay\nat eid\n"
+        ],
+        [
+            "|||"
+        ],
+        [
+            "|||",
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "8. Opinion Spam Detection\n",
+            "How to Spot Fake Reviews and Shady Ratings\non Amazon\n\nSort by most recent reviews, check if older reviews were for completely different products and search for red\nflags such as ‘gift’ or free\"\n\nBy\nJpdted Ju\n\nBear aA rex\n\nListen to atte (2 minutes)\n\nAMZN 5.37% A is suing the administrators of more than 10,000 groups it\nsays on the shopping giant's platform, While Amazon didn't name\nthe admins, the company did identify one group, called “Amazon Product Review,\" which it\nsaid had more than 43,000 members.\n\n",
+            "• Opinions in reviews or social feeds are increasingly used by individuals \nand organizations to make decisions. Positive opinions often mean \nprofit for businesses, and this provides strong incentives for imposters \nto post fake reviews to promote or to discredit target products or \nservices. \n",
+            "• Such individuals are called opinion spammers and their activities are \n",
+            "Source: https://www.wsj.com/articles/how-to-spot-fake-\nreviews-and-shady-ratings-on-amazon-11658333513 \n",
+            "called opinion spamming\n",
+            "Fake Reviews Online Might Make You Spend More on\nShittier Products\n\n‘Anew study found that fake reviews might get you to spend an extra 12 cents per dollar.\n\nBy Kevin Hutter | Fray 12. 050M | Comments (2)\n\nNow Delivering ay\nat eid\n",
+            "• There are two common approaches to detect opinion spam detection:\n",
+            "1. Burst Detection Detection – Looks for “dense areas” in the arrival pattern \n",
+            "of reviews\n",
+            "2. Review Spammer Detection - Reviewer modeling to infer the real \n",
+            "Source: https://gizmodo.com/reviews-amazon-online-\nshopping-1849318757 \n",
+            "identities of reviewers\n",
+            "Ref: Chapter 9, Pozzi, F., Fersini, E., Messina, E., & Liu, B. (2016). Sentiment analysis in social networks. Morgan Kaufmann.\n",
+            "© National University of Singapore. All Rights Reserved.\n",
+            "20\n"
+        ]
+    ],
+    "Page_20": [
+        [
+            "image",
+            "image",
+            "3 General Approaches to Sentiment Analysis\n",
+            "• Human crafted rules to identify subjectivity, polarity or \n",
+            "the subject of an opinion\n",
+            "Rule Based\n",
+            "• NLP techniques include: Stemming, tokenization, part-of-\n",
+            "speech and parsing\n",
+            "• Lexicons (list of words and expressions)\n",
+            "• Systems rely on machine learning techniques to learn from \n",
+            "data\n",
+            "ML-based\n",
+            "• Key steps involved are: pre-processing & feature \n",
+            "generation, feature extraction, training and prediction\n",
+            "• Hybrid systems combine the desirable elements of rule-\n",
+            "based and ML-based techniques into one system. \n",
+            "Hybrid\n",
+            "• One huge benefit of these systems is that results are often \n",
+            "more accurate.\n",
+            "© National University of Singapore. All Rights Reserved.\n",
+            "21\n"
+        ],
+        [
+            "image",
+            "image",
+            [
+                "GEDINH+Calibri",
+                36.0
+            ],
+            [
+                "GEDINH+Calibri",
+                20.039999999999964
+            ],
+            [
+                "GEDINH+Calibri",
+                20.039999999999964
+            ],
+            [
+                "ZJTXTV+Calibri-Bold",
+                20.04000000000002
+            ],
+            [
+                "GEDINH+Calibri",
+                20.039999999999964
+            ],
+            [
+                "GEDINH+Calibri",
+                20.039999999999964
+            ],
+            [
+                "ZJTXTV+Calibri-Bold",
+                "GEDINH+Calibri",
+                20.039999999999964,
+                20.04000000000002,
+                "RFQWLL+ArialMT"
+            ],
+            [
+                "GEDINH+Calibri",
+                20.039999999999964
+            ],
+            [
+                "GEDINH+Calibri",
+                20.039999999999992
+            ],
+            [
+                "ZJTXTV+Calibri-Bold",
+                20.039999999999992
+            ],
+            [
+                "GEDINH+Calibri",
+                20.039999999999992
+            ],
+            [
+                "ZJTXTV+Calibri-Bold",
+                "GEDINH+Calibri",
+                20.039999999999992
+            ],
+            [
+                "GEDINH+Calibri",
+                20.040000000000006
+            ],
+            [
+                "GEDINH+Calibri",
+                20.040000000000006
+            ],
+            [
+                "ZJTXTV+Calibri-Bold",
+                20.040000000000006
+            ],
+            [
+                "GEDINH+Calibri",
+                20.040000000000006
+            ],
+            [
+                "GEDINH+Calibri",
+                20.04
+            ],
+            [
+                "GEDINH+Calibri",
+                12.0
+            ],
+            [
+                "GEDINH+Calibri",
+                12.0
+            ]
+        ],
+        [
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "National University\nof Singapore\n\nNUS | ISS=\n\n"
+        ],
+        [],
+        [
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "3 General Approaches to Sentiment Analysis\n",
+            "• Human crafted rules to identify subjectivity, polarity or \n",
+            "the subject of an opinion\n",
+            "Rule Based\n",
+            "• NLP techniques include: Stemming, tokenization, part-of-\n",
+            "speech and parsing\n",
+            "• Lexicons (list of words and expressions)\n",
+            "• Systems rely on machine learning techniques to learn from \n",
+            "data\n",
+            "ML-based\n",
+            "• Key steps involved are: pre-processing & feature \n",
+            "generation, feature extraction, training and prediction\n",
+            "• Hybrid systems combine the desirable elements of rule-\n",
+            "based and ML-based techniques into one system. \n",
+            "Hybrid\n",
+            "• One huge benefit of these systems is that results are often \n",
+            "more accurate.\n",
+            "© National University of Singapore. All Rights Reserved.\n",
+            "21\n"
+        ]
+    ],
+    "Page_21": [
+        [
+            "table",
+            "image",
+            "image",
+            "1. Lexicon Based Approach Example\n",
+            "image",
+            "image",
+            "image",
+            "Issues with lexicon based systems\n• Lexicon-based systems can be very naive \nsince they don't take into account how \nwords are combined in a sequence.\n• They often require fine-tuning and \n",
+            "maintenance.\n",
+            "Types of Lexicon Dictionary\n• Some lexicon dictionary handle emoticons or \n",
+            "Long : 0\n: 0\nLast\n: 0\nNight\n: -2\n: (\n",
+            "emoji’s\n",
+            "I\nHad\nNightmares\nAll\nNight\n",
+            ": 0\n: 0\n: -3\n: 0\n: 0\n",
+            "• Some can handle negations\n• Some can handle intensity, e.g. booster \nwords, capitalization & punctuations\n",
+            "Total Score : -5\n",
+            "© National University of Singapore. All Rights Reserved.\n",
+            "22\n"
+        ],
+        [
+            "table",
+            "image",
+            "image",
+            [
+                "GEDINH+Calibri",
+                36.0
+            ],
+            "image",
+            "image",
+            "image",
+            [
+                "ZJTXTV+Calibri-Bold",
+                "GEDINH+Calibri",
+                20.04000000000002,
+                20.039999999999964
+            ],
+            [
+                "GEDINH+Calibri",
+                20.039999999999964
+            ],
+            [
+                "ZJTXTV+Calibri-Bold",
+                "GEDINH+Calibri",
+                20.039999999999992
+            ],
+            [
+                14.040000000000006,
+                14.039999999999992,
+                "RFQWLL+ArialMT"
+            ],
+            [
+                "GEDINH+Calibri",
+                20.039999999999992
+            ],
+            [
+                14.040000000000006,
+                14.039999999999992,
+                "RFQWLL+ArialMT"
+            ],
+            [
+                14.040000000000006,
+                14.039999999999992,
+                "RFQWLL+ArialMT"
+            ],
+            [
+                "GEDINH+Calibri",
+                20.040000000000006
+            ],
+            [
+                14.040000000000006,
+                "RFQWLL+ArialMT"
+            ],
+            [
+                "GEDINH+Calibri",
+                12.0
+            ],
+            [
+                "GEDINH+Calibri",
+                12.0
+            ]
+        ],
+        [
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "Lexicon-based\n\n| | had nightmares all night long last night :(\n\nSentiment Lexicon\n\npl a\nO\nige)\nO\nva\n2.\nQo\n<x\n\n§00q Text Processing\nwron co\nlove 8 | Algorithm\n\nhorrible. eo \\\n\nNegative\n\n",
+            "‘Tweets\n\nCalculate\n\nTweet\nWeight\n\n",
+            "Approach\n\nLexicon-based\n\nText Processing\nAlgorithm\n\nlove .\n% horrible oi\n\nmistake :\ndown Negative\n\n"
+        ],
+        [
+            "|n be very naive account how equence. ning and||"
+        ],
+        [
+            "|n be very naive account how equence. ning and||",
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "1. Lexicon Based Approach Example\n",
+            "Lexicon-based\n\n| | had nightmares all night long last night :(\n\nSentiment Lexicon\n\npl a\nO\nige)\nO\nva\n2.\nQo\n<x\n\n§00q Text Processing\nwron co\nlove 8 | Algorithm\n\nhorrible. eo \\\n\nNegative\n\n",
+            "‘Tweets\n\nCalculate\n\nTweet\nWeight\n\n",
+            "Approach\n\nLexicon-based\n\nText Processing\nAlgorithm\n\nlove .\n% horrible oi\n\nmistake :\ndown Negative\n\n",
+            "Issues with lexicon based systems\n• Lexicon-based systems can be very naive \nsince they don't take into account how \nwords are combined in a sequence.\n• They often require fine-tuning and \n",
+            "maintenance.\n",
+            "Types of Lexicon Dictionary\n• Some lexicon dictionary handle emoticons or \n",
+            "Long : 0\n: 0\nLast\n: 0\nNight\n: -2\n: (\n",
+            "emoji’s\n",
+            "I\nHad\nNightmares\nAll\nNight\n",
+            ": 0\n: 0\n: -3\n: 0\n: 0\n",
+            "• Some can handle negations\n• Some can handle intensity, e.g. booster \nwords, capitalization & punctuations\n",
+            "Total Score : -5\n",
+            "© National University of Singapore. All Rights Reserved.\n",
+            "22\n"
+        ]
+    ],
+    "Page_22": [
+        [
+            "table",
+            "image",
+            "image",
+            "2. ML-based Approach Example\n",
+            "table",
+            "image",
+            "image"
+        ],
+        [
+            "table",
+            "image",
+            "image",
+            [
+                "GEDINH+Calibri",
+                36.0
+            ],
+            "table",
+            "image",
+            "image"
+        ],
+        [
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "Training Phase\nLabeled Tweets\n\nFeature\n—— Ext\n\nUnlabeled Tweets\n\ninference Phase\n\nFeatures\n\n| 0.8 8.@@\n\nFeatures\n\n: v. |\n| > Feature >or 0-> Classification |\nExtractor x. Model\n\nMachine Learning\nAlgorithm\n\n=\n\nSentiment Label\n\n",
+            "| f ae \\ Machine Learning | |\nJ \\ Algorithm |\n\nL —— |\nas\nInference Phase i\n\n|\n\nFeature: v |\n\n- Classification |\n\nModel\n\nVv\n\nSentiment Label\n\n"
+        ],
+        [
+            "|Step 2. Data Pre-Processing HTML cleaning, Tokenization, Stemming/Lemmatization, Negation handling, spelling correction, slags removal etc.|None|\n|None|tization, Negation|",
+            "|Step 3. Feature Extraction Bag of words, bag of N-grams, TF-IDF, Word2Vec or Glove (Word embedding's), Transformers-based embeddings||"
+        ],
+        [
+            "|Step 2. Data Pre-Processing HTML cleaning, Tokenization, Stemming/Lemmatization, Negation handling, spelling correction, slags removal etc.|None|\n|None|tization, Negation|",
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "2. ML-based Approach Example\n",
+            "|Step 3. Feature Extraction Bag of words, bag of N-grams, TF-IDF, Word2Vec or Glove (Word embedding's), Transformers-based embeddings||",
+            "Training Phase\nLabeled Tweets\n\nFeature\n—— Ext\n\nUnlabeled Tweets\n\ninference Phase\n\nFeatures\n\n| 0.8 8.@@\n\nFeatures\n\n: v. |\n| > Feature >or 0-> Classification |\nExtractor x. Model\n\nMachine Learning\nAlgorithm\n\n=\n\nSentiment Label\n\n",
+            "| f ae \\ Machine Learning | |\nJ \\ Algorithm |\n\nL —— |\nas\nInference Phase i\n\n|\n\nFeature: v |\n\n- Classification |\n\nModel\n\nVv\n\nSentiment Label\n\n"
+        ]
+    ],
+    "Page_23": [
+        [
+            "table",
+            "image",
+            "image",
+            "3. Hybrid Approach Example\n",
+            "Potential Benefits\n",
+            "image",
+            "image",
+            "• Combines the best of rule-based and ML approaches\n• Domain-specific lexicons and rules can be introduced\n• This approach may work better in situation where a \n",
+            "large set of training data is unavailable\n",
+            "• Brings more flexibility for domain experts to intervene \nand handle complex NLP tasks using rule-based & \nupdated lexicon dictionary\n",
+            "• Towards the idea of collaborative intelligence between \n",
+            "computer and human\n",
+            "© National University of Singapore. All Rights Reserved.\n",
+            "24\n"
+        ],
+        [
+            "table",
+            "image",
+            "image",
+            [
+                "GEDINH+Calibri",
+                36.0
+            ],
+            [
+                "ZJTXTV+Calibri-Bold",
+                24.0
+            ],
+            "image",
+            "image",
+            [
+                "GEDINH+Calibri",
+                21.95999999999998
+            ],
+            [
+                "GEDINH+Calibri",
+                21.95999999999998
+            ],
+            [
+                "GEDINH+Calibri",
+                21.95999999999998
+            ],
+            [
+                "GEDINH+Calibri",
+                21.959999999999994
+            ],
+            [
+                "GEDINH+Calibri",
+                21.959999999999994
+            ],
+            [
+                "GEDINH+Calibri",
+                12.0
+            ],
+            [
+                "GEDINH+Calibri",
+                12.0
+            ]
+        ],
+        [
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "Movie Data Feature\nReviews Preprocessing Extraction\n\nMachine\nLearning\nMethod\n\nLexicon\nMethod\n\nSelection Features Labeled\nReview\nStatistical\nFeatures\n\nFeatures\n\n",
+            "Feature\nExtraction\n\nMovie Data\nReviews Preprocessing\nee\nMethod Method\n\nFeature\nSelection\n\nStatistical\nFeature:\n\nfi\n\nClassification\n\nHybrid\nFeatures\n\n"
+        ],
+        [
+            "|ML approaches n be introduced||"
+        ],
+        [
+            "|ML approaches n be introduced||",
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "3. Hybrid Approach Example\n",
+            "Potential Benefits\n",
+            "Movie Data Feature\nReviews Preprocessing Extraction\n\nMachine\nLearning\nMethod\n\nLexicon\nMethod\n\nSelection Features Labeled\nReview\nStatistical\nFeatures\n\nFeatures\n\n",
+            "Feature\nExtraction\n\nMovie Data\nReviews Preprocessing\nee\nMethod Method\n\nFeature\nSelection\n\nStatistical\nFeature:\n\nfi\n\nClassification\n\nHybrid\nFeatures\n\n",
+            "• Combines the best of rule-based and ML approaches\n• Domain-specific lexicons and rules can be introduced\n• This approach may work better in situation where a \n",
+            "large set of training data is unavailable\n",
+            "• Brings more flexibility for domain experts to intervene \nand handle complex NLP tasks using rule-based & \nupdated lexicon dictionary\n",
+            "• Towards the idea of collaborative intelligence between \n",
+            "computer and human\n",
+            "© National University of Singapore. All Rights Reserved.\n",
+            "24\n"
+        ]
+    ],
+    "Page_24": [
+        [
+            "image",
+            "image",
+            "3 Levels of Sentiment Analysis\n",
+            "image",
+            "image",
+            "© National University of Singapore. All Rights Reserved.\n",
+            "25\n"
+        ],
+        [
+            "image",
+            "image",
+            [
+                "GEDINH+Calibri",
+                36.0
+            ],
+            "image",
+            "image",
+            [
+                "GEDINH+Calibri",
+                12.0
+            ],
+            [
+                "GEDINH+Calibri",
+                12.0
+            ]
+        ],
+        [
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "Context\n\nGranularity\n\nDocument\n”\nse]\n0\n0,\n\nSentence =\nso)\n«K\n\nWord\n\nOne loses context at higher granularity and specificity in lower granularity,\n",
+            "Sentence\n\nlevel\n\nEntity and\naspect\nlevel\n\n"
+        ],
+        [],
+        [
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "3 Levels of Sentiment Analysis\n",
+            "Context\n\nGranularity\n\nDocument\n”\nse]\n0\n0,\n\nSentence =\nso)\n«K\n\nWord\n\nOne loses context at higher granularity and specificity in lower granularity,\n",
+            "Sentence\n\nlevel\n\nEntity and\naspect\nlevel\n\n",
+            "© National University of Singapore. All Rights Reserved.\n",
+            "25\n"
+        ]
+    ],
+    "Page_25": [
+        [
+            "image",
+            "image",
+            "3 Levels of Sentiment Analysis\n",
+            "1. Message level: The aim is to classify the polarity of a whole opinionated message. For \n",
+            "example, given a phone review, the system determines whether the review expresses an \noverall positive, negative, or neutral opinion about the phone. The assumption is that the \nentire message expresses only one opinion about the phone.\n",
+            "2. Sentence level: The aim is to determine the polarity of each sentence contained in a text \nmessage. The assumption is that each sentence, in a given message, denotes only one \nopinion about the phone.\n",
+            "3. Entity and aspect level: Performs a finer-grained analysis than message and sentence \nlevel. It is based on the idea that an opinion consists of a sentiment and a target (of \nopinion). For example, the sentence “The iPhone is very good, but they still need to work \non battery life and security issues” evaluates three aspects: iPhone (positive), battery life \n(negative), and security (negative).\n",
+            "© National University of Singapore. All Rights Reserved.\n",
+            "26\n"
+        ],
+        [
+            "image",
+            "image",
+            [
+                "GEDINH+Calibri",
+                36.0
+            ],
+            [
+                "ZJTXTV+Calibri-Bold",
+                "GEDINH+Calibri",
+                21.95999999999998
+            ],
+            [
+                "ZJTXTV+Calibri-Bold",
+                "GEDINH+Calibri",
+                21.95999999999998
+            ],
+            [
+                "ZJTXTV+Calibri-Bold",
+                "GEDINH+Calibri",
+                21.960000000000008,
+                21.95999999999998
+            ],
+            [
+                "ZJTXTV+Calibri-Bold",
+                "GEDINH+Calibri",
+                21.959999999999994,
+                21.960000000000008
+            ],
+            [
+                "GEDINH+Calibri",
+                12.0
+            ],
+            [
+                "GEDINH+Calibri",
+                12.0
+            ]
+        ],
+        [
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "National University\nof Singapore\n\nNUS | ISS=\n\n"
+        ],
+        [],
+        [
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "3 Levels of Sentiment Analysis\n",
+            "1. Message level: The aim is to classify the polarity of a whole opinionated message. For \n",
+            "example, given a phone review, the system determines whether the review expresses an \noverall positive, negative, or neutral opinion about the phone. The assumption is that the \nentire message expresses only one opinion about the phone.\n",
+            "2. Sentence level: The aim is to determine the polarity of each sentence contained in a text \nmessage. The assumption is that each sentence, in a given message, denotes only one \nopinion about the phone.\n",
+            "3. Entity and aspect level: Performs a finer-grained analysis than message and sentence \nlevel. It is based on the idea that an opinion consists of a sentiment and a target (of \nopinion). For example, the sentence “The iPhone is very good, but they still need to work \non battery life and security issues” evaluates three aspects: iPhone (positive), battery life \n(negative), and security (negative).\n",
+            "© National University of Singapore. All Rights Reserved.\n",
+            "26\n"
+        ]
+    ],
+    "Page_26": [
+        [
+            "image",
+            "image",
+            "Activity: Sentiment Analysis about Bard from YouTube\n",
+            "image",
+            "WION - Alphabet Inc lost $100 billion in market value on Wednesday after its new chatbot shared inaccurate \ninformation in a promotional video and a company event failed to dazzle, feeding worries that the Google \nparent is losing ground to rival Microsoft Corp. \n",
+            "In your group, based on what you have learnt so far, create a one-page action plan to summarize the viewers’ \nsentiment about Bard versus ChatGPT (and not the companies)\n",
+            "Source: https://www.youtube.com/watch?v=ES-9tszg3OY&t=9s\n",
+            "© National University of Singapore. All Rights Reserved.\n",
+            "27\n"
+        ],
+        [
+            "image",
+            "image",
+            [
+                "GEDINH+Calibri",
+                36.0
+            ],
+            "image",
+            [
+                "GEDINH+Calibri",
+                18.0,
+                17.99999999999997
+            ],
+            [
+                "GEDINH+Calibri",
+                18.0,
+                17.999999999999986
+            ],
+            [
+                "GEDINH+Calibri",
+                14.04
+            ],
+            [
+                "GEDINH+Calibri",
+                12.0
+            ],
+            [
+                "GEDINH+Calibri",
+                12.0
+            ]
+        ],
+        [
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "Blunder by Google's Al Chatbot ‘Bard’, Alphabet shares lose $100 Billion | World\n\nBusiness Watch |\n33K views » 18 hours ago\n\n@ wine\nAlphabet Inc lost $100 billion in market value on Wednesday after its new chatbot shared inaccurate information in a promotional ...\n\nNew\n\n"
+        ],
+        [],
+        [
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "Activity: Sentiment Analysis about Bard from YouTube\n",
+            "Blunder by Google's Al Chatbot ‘Bard’, Alphabet shares lose $100 Billion | World\n\nBusiness Watch |\n33K views » 18 hours ago\n\n@ wine\nAlphabet Inc lost $100 billion in market value on Wednesday after its new chatbot shared inaccurate information in a promotional ...\n\nNew\n\n",
+            "WION - Alphabet Inc lost $100 billion in market value on Wednesday after its new chatbot shared inaccurate \ninformation in a promotional video and a company event failed to dazzle, feeding worries that the Google \nparent is losing ground to rival Microsoft Corp. \n",
+            "In your group, based on what you have learnt so far, create a one-page action plan to summarize the viewers’ \nsentiment about Bard versus ChatGPT (and not the companies)\n",
+            "Source: https://www.youtube.com/watch?v=ES-9tszg3OY&t=9s\n",
+            "© National University of Singapore. All Rights Reserved.\n",
+            "27\n"
+        ]
+    ],
+    "Page_27": [
+        [
+            "image",
+            "image",
+            "image",
+            "Part 2. Applications of \nSentiment Analysis\n",
+            "www.iss.nus.edu.sg\n",
+            "28\n"
+        ],
+        [
+            "image",
+            "image",
+            "image",
+            [
+                "GEDINH+Calibri",
+                36.0
+            ],
+            [
+                "CGDKJP+CenturyGothic-Bold",
+                15.960000000000008
+            ],
+            [
+                "GEDINH+Calibri",
+                12.0
+            ]
+        ],
+        [
+            "Ea ®\n\nbe)\n",
+            "National University\nof Singapore\n\nNUS | ISE=\n\n",
+            "NUS cz\nNational University ——\nof Singapore\n\n"
+        ],
+        [],
+        [
+            "Ea ®\n\nbe)\n",
+            "National University\nof Singapore\n\nNUS | ISE=\n\n",
+            "NUS cz\nNational University ——\nof Singapore\n\n",
+            "Part 2. Applications of \nSentiment Analysis\n",
+            "www.iss.nus.edu.sg\n",
+            "28\n"
+        ]
+    ],
+    "Page_28": [
+        [
+            "image",
+            "image",
+            "Applications of Sentiment Analysis\n",
+            "1. Customer Feedback and Reviews\n",
+            "2. Financial Prediction\n3. Fraud Detection\n4. Public Opinion Formation \n5. Perceptions of Public Policy \n",
+            "image",
+            "Source: https://netbasequid.com/blog/what-is-social-sentiment-analysis/ \n",
+            "© National University of Singapore. All Rights Reserved.\n",
+            "29\n"
+        ],
+        [
+            "image",
+            "image",
+            [
+                "GEDINH+Calibri",
+                36.0
+            ],
+            [
+                24.0,
+                "GEDINH+Calibri"
+            ],
+            [
+                24.0,
+                "GEDINH+Calibri"
+            ],
+            "image",
+            [
+                "GEDINH+Calibri",
+                12.0
+            ],
+            [
+                "GEDINH+Calibri",
+                12.0
+            ],
+            [
+                "GEDINH+Calibri",
+                12.0
+            ]
+        ],
+        [
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "—_\n=\n®\n£\n\n=\n<\n®\n\nWw\n\nAnalysis\n\n"
+        ],
+        [],
+        [
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "Applications of Sentiment Analysis\n",
+            "1. Customer Feedback and Reviews\n",
+            "2. Financial Prediction\n3. Fraud Detection\n4. Public Opinion Formation \n5. Perceptions of Public Policy \n",
+            "—_\n=\n®\n£\n\n=\n<\n®\n\nWw\n\nAnalysis\n\n",
+            "Source: https://netbasequid.com/blog/what-is-social-sentiment-analysis/ \n",
+            "© National University of Singapore. All Rights Reserved.\n",
+            "29\n"
+        ]
+    ],
+    "Page_29": [
+        [
+            "image",
+            "image",
+            "1. Customer Feedback and Reviews\n",
+            "• Social media monitoring, Brand monitoring, Voice of customer (VoC), \n",
+            "Customer service\n",
+            "image",
+            "Source: https://shopee.sg/HUAWEI-Band-7-Smartwatch-9.9-mm-Ultra-thin-Design-2-Weeks-Battery-Life-Quick-Reply-of-Third-party-Apps-i.181050132.2936331613 \n",
+            "© National University of Singapore. All Rights Reserved.\n",
+            "30\n"
+        ],
+        [
+            "image",
+            "image",
+            [
+                "GEDINH+Calibri",
+                36.0
+            ],
+            [
+                27.960000000000036,
+                "GEDINH+Calibri",
+                27.95999999999998,
+                "RFQWLL+ArialMT"
+            ],
+            [
+                "GEDINH+Calibri",
+                27.95999999999998
+            ],
+            "image",
+            [
+                "GEDINH+Calibri",
+                9.96
+            ],
+            [
+                "GEDINH+Calibri",
+                12.0
+            ],
+            [
+                "GEDINH+Calibri",
+                12.0
+            ]
+        ],
+        [
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "HUAWEI Official Store HUAWEI Band 7 Smartwatch | 9.9 mm Ultra-thin Design | 2 Weeks\nBattery Life | Quick Reply of Third-party Apps\n\n4.9 witik 4.4k Ratings 10.2k Sold\n\nHUAWEI Band 7\n\nee $63.00\n\na Big Brand Discounts Guarantee @\n\nShipping Aa Free shipping\n\nGR Shipping Fee $0.00 v\nColour Band 7 - Black Band 7 - Green Band 7 - Pink\n\nQuantity = 1 + 396 pieces available\n\n"
+        ],
+        [],
+        [
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "1. Customer Feedback and Reviews\n",
+            "• Social media monitoring, Brand monitoring, Voice of customer (VoC), \n",
+            "Customer service\n",
+            "HUAWEI Official Store HUAWEI Band 7 Smartwatch | 9.9 mm Ultra-thin Design | 2 Weeks\nBattery Life | Quick Reply of Third-party Apps\n\n4.9 witik 4.4k Ratings 10.2k Sold\n\nHUAWEI Band 7\n\nee $63.00\n\na Big Brand Discounts Guarantee @\n\nShipping Aa Free shipping\n\nGR Shipping Fee $0.00 v\nColour Band 7 - Black Band 7 - Green Band 7 - Pink\n\nQuantity = 1 + 396 pieces available\n\n",
+            "Source: https://shopee.sg/HUAWEI-Band-7-Smartwatch-9.9-mm-Ultra-thin-Design-2-Weeks-Battery-Life-Quick-Reply-of-Third-party-Apps-i.181050132.2936331613 \n",
+            "© National University of Singapore. All Rights Reserved.\n",
+            "30\n"
+        ]
+    ],
+    "Page_30": [
+        [
+            "table",
+            "image",
+            "image",
+            "1. Customer Feedback and Reviews\n",
+            "image",
+            "image",
+            "Source: https://shopee.sg/HUAWEI-Band-7-Smartwatch-9.9-mm-Ultra-thin-Design-2-Weeks-Battery-Life-Quick-Reply-of-Third-party-Apps-i.181050132.2936331613 \n",
+            "© National University of Singapore. All Rights Reserved.\n",
+            "31\n"
+        ],
+        [
+            "table",
+            "image",
+            "image",
+            [
+                "GEDINH+Calibri",
+                36.0
+            ],
+            "image",
+            "image",
+            [
+                "GEDINH+Calibri",
+                9.96
+            ],
+            [
+                "GEDINH+Calibri",
+                12.0
+            ],
+            [
+                "GEDINH+Calibri",
+                12.0
+            ]
+        ],
+        [
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "je\n\nKkkkn\n\n2022\n\n20 09:22 | Variation: Band 7 - Pink\n\nPerformance: nice\nBest Feature(s): good\nValue For Money: yup\n\nBought it at sale price $58 deduct $5 off voucher i only pay $53 nice.. frist time buy hua wei watch, this watch is easy to use and the qr from the watch didnt know need scan\nfrom wechat @ took awhile to set up but all are good now still trying to explore the function :)\n\ng’***n\n\nb axkaxexans\n\n2021-12-03 23:48 | Variation: Sakura Pink\n",
+            "gen\nb akakekans\n\n2021-12-03 23:48 | Variation: Sakura Pink\n\nlove it .. but mine doesnt come with extra straps even though i ordered on the 30 November still got promo free gift .. but when i complaints to the seller they blamed me\nthey said group purchase single purchase different @@ so bad respond and no responsibility\n\nSource: https://shopee.sg/HUAWEI-Band-7-Smartwatch-9.9-mm-Ultra-thin-Design-2-Weeks-Battery-Life-Quick-Reply-of-Third-party-Apps-i.181050132.2936331613\n\n"
+        ],
+        [
+            "|||"
+        ],
+        [
+            "|||",
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "1. Customer Feedback and Reviews\n",
+            "je\n\nKkkkn\n\n2022\n\n20 09:22 | Variation: Band 7 - Pink\n\nPerformance: nice\nBest Feature(s): good\nValue For Money: yup\n\nBought it at sale price $58 deduct $5 off voucher i only pay $53 nice.. frist time buy hua wei watch, this watch is easy to use and the qr from the watch didnt know need scan\nfrom wechat @ took awhile to set up but all are good now still trying to explore the function :)\n\ng’***n\n\nb axkaxexans\n\n2021-12-03 23:48 | Variation: Sakura Pink\n",
+            "gen\nb akakekans\n\n2021-12-03 23:48 | Variation: Sakura Pink\n\nlove it .. but mine doesnt come with extra straps even though i ordered on the 30 November still got promo free gift .. but when i complaints to the seller they blamed me\nthey said group purchase single purchase different @@ so bad respond and no responsibility\n\nSource: https://shopee.sg/HUAWEI-Band-7-Smartwatch-9.9-mm-Ultra-thin-Design-2-Weeks-Battery-Life-Quick-Reply-of-Third-party-Apps-i.181050132.2936331613\n\n",
+            "Source: https://shopee.sg/HUAWEI-Band-7-Smartwatch-9.9-mm-Ultra-thin-Design-2-Weeks-Battery-Life-Quick-Reply-of-Third-party-Apps-i.181050132.2936331613 \n",
+            "© National University of Singapore. All Rights Reserved.\n",
+            "31\n"
+        ]
+    ],
+    "Page_31": [
+        [
+            "image",
+            "image",
+            "1. Customer Feedback and Reviews\n",
+            "image",
+            "Link: https://ieeexplore.ieee.org/abstract/document/8862258 \n",
+            "© National University of Singapore. All Rights Reserved.\n",
+            "32\n"
+        ],
+        [
+            "image",
+            "image",
+            [
+                "GEDINH+Calibri",
+                36.0
+            ],
+            "image",
+            [
+                "GEDINH+Calibri",
+                18.0
+            ],
+            [
+                "GEDINH+Calibri",
+                12.0
+            ],
+            [
+                "GEDINH+Calibri",
+                12.0
+            ]
+        ],
+        [
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "Sentiment Analysis on Customer Feedback Data: Amazon Product Reviews\n\nPublisher: IEEE\n\nPankaj; Prashant Pandey; Muskan; Nitasha Soni All Authors\n\n8 885\n\nPaper Full CR] < © —) a\n\nCitations Text Views\n\nAbstract Abstract:\n\nSentiment analysis is one of the fastest spreading research areas in computer science, making it challenging to keep track of\n\nDocument Sections all the activities in the area. We present a customer feedback reviews on product, where we utilize opinion mining, text mining\n\nL. Introduction and sentiments, which has affected the surrounded world by changing their opinion on a specific product. Data used in this\nstudy are online product reviews collected from http://Amazon.com. We performed a comparative sentiment analysis of\n\nI. Related Work retrieved reviews. This research paper provides you with sentimental analysis of various smart phone opinions on smart\n\nIll, Opinion Mining and phones dividing them Positive, Negative and Neutral Behaviour.\n\nSentiment Analysis\n\nPublished in: 2019 International Conference on Machine Learning, Big Data, Cloud and Parallel Computing (COMITCon)\nIV. Research Pattern and\nMethodology\n\nDate of Conference: 14-16 February 2019 INSPEC Accession Number: 19046522\n\n"
+        ],
+        [],
+        [
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "1. Customer Feedback and Reviews\n",
+            "Sentiment Analysis on Customer Feedback Data: Amazon Product Reviews\n\nPublisher: IEEE\n\nPankaj; Prashant Pandey; Muskan; Nitasha Soni All Authors\n\n8 885\n\nPaper Full CR] < © —) a\n\nCitations Text Views\n\nAbstract Abstract:\n\nSentiment analysis is one of the fastest spreading research areas in computer science, making it challenging to keep track of\n\nDocument Sections all the activities in the area. We present a customer feedback reviews on product, where we utilize opinion mining, text mining\n\nL. Introduction and sentiments, which has affected the surrounded world by changing their opinion on a specific product. Data used in this\nstudy are online product reviews collected from http://Amazon.com. We performed a comparative sentiment analysis of\n\nI. Related Work retrieved reviews. This research paper provides you with sentimental analysis of various smart phone opinions on smart\n\nIll, Opinion Mining and phones dividing them Positive, Negative and Neutral Behaviour.\n\nSentiment Analysis\n\nPublished in: 2019 International Conference on Machine Learning, Big Data, Cloud and Parallel Computing (COMITCon)\nIV. Research Pattern and\nMethodology\n\nDate of Conference: 14-16 February 2019 INSPEC Accession Number: 19046522\n\n",
+            "Link: https://ieeexplore.ieee.org/abstract/document/8862258 \n",
+            "© National University of Singapore. All Rights Reserved.\n",
+            "32\n"
+        ]
+    ],
+    "Page_32": [
+        [
+            "image",
+            "image",
+            "Customer Journey Map – Customer Experience (CX)\n",
+            "image",
+            "Measuring customers’ sentiments across all touchpoints\n",
+            "Source: Delighted by Qualtrics. Link: https://delighted.com/blog/guide-to-customer-journey-mapping \n",
+            "© National University of Singapore. All Rights Reserved.\n",
+            "33\n"
+        ],
+        [
+            "image",
+            "image",
+            [
+                "GEDINH+Calibri",
+                36.0
+            ],
+            "image",
+            [
+                "JTPADB+TwCenMT-Regular",
+                18.0
+            ],
+            [
+                "GEDINH+Calibri",
+                9.96
+            ],
+            [
+                "GEDINH+Calibri",
+                12.0
+            ],
+            [
+                "GEDINH+Calibri",
+                12.0
+            ]
+        ],
+        [
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "Retail customer journey\n\n“The store was\n\n“It was difficultto pleasant to visit. _ “The cashier wasn’t “Lrecommend this :\ncompare options @ @ very helpful.” store to my friends” @\non my phone.” ‘, .\nResearch\nrs “oho ve -\nphone\n“| need to make “This met my price e “’'m so glad you r “| need to\na purchase.” expectations.” * answered my phone purchase again.”\n\n“call and questions.”\n"
+        ],
+        [],
+        [
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "Customer Journey Map – Customer Experience (CX)\n",
+            "Retail customer journey\n\n“The store was\n\n“It was difficultto pleasant to visit. _ “The cashier wasn’t “Lrecommend this :\ncompare options @ @ very helpful.” store to my friends” @\non my phone.” ‘, .\nResearch\nrs “oho ve -\nphone\n“| need to make “This met my price e “’'m so glad you r “| need to\na purchase.” expectations.” * answered my phone purchase again.”\n\n“call and questions.”\n",
+            "Measuring customers’ sentiments across all touchpoints\n",
+            "Source: Delighted by Qualtrics. Link: https://delighted.com/blog/guide-to-customer-journey-mapping \n",
+            "© National University of Singapore. All Rights Reserved.\n",
+            "33\n"
+        ]
+    ],
+    "Page_33": [
+        [
+            "table",
+            "image",
+            "image",
+            "2. Financial Prediction\n",
+            "• Sentiment drives the stock market. It changes people’s consumption habits which \n",
+            "in turn drives their investment and savings tendencies\n",
+            "image",
+            "image",
+            "Source: https://www.bloomberg.com/news/articles/2022-07-05/crypto-fear-and-greed-gauge-improves-a-bit-after-60-\nselloff \n",
+            "image",
+            "Source: https://www.visualcapitalist.com/understanding-the-disconnect-between-consumers-and-the-stock-market/\nhttps://www.cnbc.com/2022/07/22/10-year-yield-slides-to-two-week-low-as-weak-data-ecb-move-dampen-sentiment.html \n",
+            "© National University of Singapore. All Rights Reserved.\n",
+            "34\n"
+        ],
+        [
+            "table",
+            "image",
+            "image",
+            [
+                "GEDINH+Calibri",
+                36.0
+            ],
+            [
+                24.0,
+                "GEDINH+Calibri",
+                "RFQWLL+ArialMT"
+            ],
+            [
+                24.0,
+                "GEDINH+Calibri"
+            ],
+            "image",
+            "image",
+            [
+                "GEDINH+Calibri",
+                "JTPADB+TwCenMT-Regular",
+                9.960000000000008
+            ],
+            "image",
+            [
+                "GEDINH+Calibri",
+                "JTPADB+TwCenMT-Regular",
+                9.96
+            ],
+            [
+                "GEDINH+Calibri",
+                12.0
+            ],
+            [
+                "GEDINH+Calibri",
+                12.0
+            ]
+        ],
+        [
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "Crypto ‘Fear and Greed’ Gauge Improves\na Bit After 60% Selloff\n\n= Measure climbing toward ‘fear’ from ‘extreme fear’ level\n= Bitcoin briefly breaks above $20,000 before coming back down\n",
+            "Consumer Sentiment ==) =) |\n\n1990s * Feb 2009 « Feb 2020 - Present «\nThe bull market of the “90s During the global financial Consumer sentiment tumbled\nwas met with a steep rise: crisis, both indices bottomed a5 US. unemployment hit 3\nin consumer sentiment. ‘Our at roughly the same time. Fecord high of 14.7% in Apa.\n\n(ante ie\n1992 1996 2000 2004 2008 2012 2016 2020\n\nThe S&P 500 is widely regarded as the best representation\nof the overall US. stock market.\n\nSo why doesn’t it reflect the current economic\n",
+            "10-year yield slides to two-week low\nas weak data, ECB move dampen\nsentiment\n\n"
+        ],
+        [
+            "|None||\n|||"
+        ],
+        [
+            "|None||\n|||",
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "2. Financial Prediction\n",
+            "• Sentiment drives the stock market. It changes people’s consumption habits which \n",
+            "in turn drives their investment and savings tendencies\n",
+            "Crypto ‘Fear and Greed’ Gauge Improves\na Bit After 60% Selloff\n\n= Measure climbing toward ‘fear’ from ‘extreme fear’ level\n= Bitcoin briefly breaks above $20,000 before coming back down\n",
+            "Consumer Sentiment ==) =) |\n\n1990s * Feb 2009 « Feb 2020 - Present «\nThe bull market of the “90s During the global financial Consumer sentiment tumbled\nwas met with a steep rise: crisis, both indices bottomed a5 US. unemployment hit 3\nin consumer sentiment. ‘Our at roughly the same time. Fecord high of 14.7% in Apa.\n\n(ante ie\n1992 1996 2000 2004 2008 2012 2016 2020\n\nThe S&P 500 is widely regarded as the best representation\nof the overall US. stock market.\n\nSo why doesn’t it reflect the current economic\n",
+            "Source: https://www.bloomberg.com/news/articles/2022-07-05/crypto-fear-and-greed-gauge-improves-a-bit-after-60-\nselloff \n",
+            "10-year yield slides to two-week low\nas weak data, ECB move dampen\nsentiment\n\n",
+            "Source: https://www.visualcapitalist.com/understanding-the-disconnect-between-consumers-and-the-stock-market/\nhttps://www.cnbc.com/2022/07/22/10-year-yield-slides-to-two-week-low-as-weak-data-ecb-move-dampen-sentiment.html \n",
+            "© National University of Singapore. All Rights Reserved.\n",
+            "34\n"
+        ]
+    ],
+    "Page_34": [
+        [
+            "image",
+            "image",
+            "Predicting Stock Market Movement from Tweets\n",
+            "image",
+            "Link: http://eprints.lincoln.ac.uk/id/eprint/11274/1/ASONAM%202012.pdf \n",
+            "© National University of Singapore. All Rights Reserved.\n",
+            "35\n"
+        ],
+        [
+            "image",
+            "image",
+            [
+                "GEDINH+Calibri",
+                36.0
+            ],
+            "image",
+            [
+                "GEDINH+Calibri",
+                18.0
+            ],
+            [
+                "GEDINH+Calibri",
+                12.0
+            ],
+            [
+                "GEDINH+Calibri",
+                12.0
+            ]
+        ],
+        [
+            "",
+            "",
+            "Analyzing Stock Market Movements Using Twitter Sentiment Analysis\n\nTushar Rao\nNSIT, Delhi, India\nEmail: rao.tushar@nsitonline.in\n\nAbstract—In this paper we i ite the complex relation-\nship between tweet board literature (like bullishness, volume,\nagreement etc) with the financial market instruments (like\n\n, trading volume and stock prices). We have analyzed\nsentiments for more than 4 million tweets between June 2010\nto July 2011 for DJIA, NASDAQ-100 and 13 other big cap\ntechnological stocks. Our results show high correlation (upto\n0.88 for returns) between stock prices and twitter sentiments.\nFurther, using Granger’s Causality Analysis, we have validated\nthat the movement of stock prices and indices are greatly\naffected in the short term by Twitter discussions. Finally, we\nhave implemented Expert Model Mining System (EMMS) to\ndemonstrate that our forecasted returns give a high value of R-\nsquare (0.952) with low Maximum Absolute Percentage Error\n(MaxAPE) of 1.76% for Dow Jones Industrial Average (DJIA).\n\n-Stock market ; sentiment analysis ; Twitter ;\nmicroblogging ; social network analysis\nI. INTRODUCTION\n\nBefore the emergence of internet, information regarding\ncompany’s stock price, direction and general sentiments\n\nSaket Srivastava\nIIIT-Dethi, India\nEmail: saket@iiitd.ac.in\n\nuse it in conjunction with the standard model to improve the\naccuracy of prediction.\n\n— DJIA + NASDAQ-100 +\nTweets ¢ 13 Companies\n[Naive Classifier __|\n* Bullishness * Returns\n* Message * Volatility\nVolume * Trading Volume\n\n* Index Close Price daily\n\nForecast\nperformance\nR for different\ntime windows.\n\n* Agreement\n\nValue of _‘F-statistic:p- R- square\nPearson ‘r’ values and MAPE\n\n"
+        ],
+        [],
+        [
+            "",
+            "",
+            "Predicting Stock Market Movement from Tweets\n",
+            "Analyzing Stock Market Movements Using Twitter Sentiment Analysis\n\nTushar Rao\nNSIT, Delhi, India\nEmail: rao.tushar@nsitonline.in\n\nAbstract—In this paper we i ite the complex relation-\nship between tweet board literature (like bullishness, volume,\nagreement etc) with the financial market instruments (like\n\n, trading volume and stock prices). We have analyzed\nsentiments for more than 4 million tweets between June 2010\nto July 2011 for DJIA, NASDAQ-100 and 13 other big cap\ntechnological stocks. Our results show high correlation (upto\n0.88 for returns) between stock prices and twitter sentiments.\nFurther, using Granger’s Causality Analysis, we have validated\nthat the movement of stock prices and indices are greatly\naffected in the short term by Twitter discussions. Finally, we\nhave implemented Expert Model Mining System (EMMS) to\ndemonstrate that our forecasted returns give a high value of R-\nsquare (0.952) with low Maximum Absolute Percentage Error\n(MaxAPE) of 1.76% for Dow Jones Industrial Average (DJIA).\n\n-Stock market ; sentiment analysis ; Twitter ;\nmicroblogging ; social network analysis\nI. INTRODUCTION\n\nBefore the emergence of internet, information regarding\ncompany’s stock price, direction and general sentiments\n\nSaket Srivastava\nIIIT-Dethi, India\nEmail: saket@iiitd.ac.in\n\nuse it in conjunction with the standard model to improve the\naccuracy of prediction.\n\n— DJIA + NASDAQ-100 +\nTweets ¢ 13 Companies\n[Naive Classifier __|\n* Bullishness * Returns\n* Message * Volatility\nVolume * Trading Volume\n\n* Index Close Price daily\n\nForecast\nperformance\nR for different\ntime windows.\n\n* Agreement\n\nValue of _‘F-statistic:p- R- square\nPearson ‘r’ values and MAPE\n\n",
+            "Link: http://eprints.lincoln.ac.uk/id/eprint/11274/1/ASONAM%202012.pdf \n",
+            "© National University of Singapore. All Rights Reserved.\n",
+            "35\n"
+        ]
+    ],
+    "Page_35": [
+        [
+            "image",
+            "image",
+            "Project: Gold Price Trend Prediction\n",
+            "Raw news data table\n",
+            "Reuters Eikon Interface\n",
+            "image",
+            "image",
+            "Price data table\n",
+            "image",
+            "2022 EBAC Project By: Xiaohong, Haoxin, Yansun, Chenchen & Youwen\n",
+            "© National University of Singapore. All Rights Reserved.\n",
+            "36\n"
+        ],
+        [
+            "image",
+            "image",
+            [
+                "GEDINH+Calibri",
+                36.0
+            ],
+            [
+                "ZJTXTV+Calibri-Bold",
+                18.0
+            ],
+            [
+                "ZJTXTV+Calibri-Bold",
+                18.0
+            ],
+            "image",
+            "image",
+            [
+                "ZJTXTV+Calibri-Bold",
+                18.0
+            ],
+            "image",
+            [
+                "GEDINH+Calibri",
+                9.96
+            ],
+            [
+                "GEDINH+Calibri",
+                12.0
+            ],
+            [
+                "GEDINH+Calibri",
+                12.0
+            ]
+        ],
+        [
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "Date\n0 2021-02-01 01:00:00\n1 2021-02-01 08:00:00\n2 2021-02-01 11:00:00\n3 2021-02-01 13:00:00\n\n4 2021-02-01 14:00:00\n\nHeadline\n\nPRECIOUS-Silver surges to near 6-month peak on...\nPRECIOUS-Retail mania propels silver prices to...\nUPDATE 1-India cuts import tax on gold, indust...\nGRAPHIC-Silver fund inflows surge in January o...\n\nPRECIOUS-Silver scales 8-year peak as investor...\n\nraw_news\nFeb 1 (Reuters) - Silver soared as much as 7.4...\nPhysical silver demand more than doubled since...\nSlashes gold, silver import duty to 7.5% from ...\nBy Patturaja MurugaboopathyFeb 1 (Reuters) - ...\n\nExcessive price rise can hamper physical deman...\n\n",
+            "MARKETS NEWS CHARTING COMPANY RESEARCH FILINGS & EVENTS PORTFOLIOS &\nClick here to try the new version of News Monitor\nFA © Topics ~ =Q | KAU®! AND! /Engiish) [AND’ © [Significant News) |: c, Portfolio\n% Y @©MostRecenty EJAlvy 7\nRTRS 04:34:53 AM ©) GLOBAL MARKETS-Stocks slide, dollar gains on hot U.S. inflation data\nRTRS 04:09:20 AM —_) LIVE MARKETS-Wall Street ends week with a steep drop after CPI scare\nGURU 04:08:42 AM —_—_Gold intraday: the upside prevails as long as 1864 is support\nRTRS 03:03:36 AM —_} GLOBAL MARKETS-Stocks slide, dollar gains on hot U.S. inflation data\nRTRS 03:01:28 AM —_) PRECIOUS-Gold rebounds in roller coaster trade as economic fears grow\nRTRS 01:53:42 AM ©) LIVE MARKETS-Oil: the new gold?\nRTRS 01:11:31 AM >) REFILE-LIVE MARKETS-Cresset's models suggest S&P 500 still needs a haircut\nRTRS 01:03:20AM —<) REFILE-LIVE MARKETS-Cresset's models suggest S&P 500 still needs a haircut\nRTRS 12:12:41 AM <> LIVE MARKETS-Semis drop as investors eye higher rates, PC slowdown\n10 June 2022\nRTRS 11:57:24PM ©) LIVE MARKETS-Banks raise Fed rate calls after hot CPI\nRTRS 11:39:32PM <> LIVE MARKETS-Stoxx 600 ends the worst week in one month\nRTRS 11:09:29PM —__) GLOBAL MARKETS-Stocks slide, dollar gains on hot U.S. inflation data\nRTRS 11:04:39 PM <> LIVE MARKETS-Summertime blues: CPI scorches, consumer sentiment plunges to record low\n\n",
+            "> © ND\n\nDate\n\n2021-01-25 00:00:00\n\n2021-01-25 01:00:00\n\n2021-01-25 02:00:00\n\n2021-01-25 03:00:00\n\n2021-01-25 04:00:00\n\nHIGH\n\n1859.0900\n\n1859.6969\n\n1859.6334\n\n1855.8600\n\n1855.4700\n\nLOW\n\n1853.4900\n\n1855.0419\n\n1852.4263\n\n1853.3058\n\n1852.9384\n\nOPEN\n\n1854.2900\n\n1856.6600\n\n1858.0425\n\n1854.4380\n\n1853.9886\n\nCLOSE\n\n1856.6100\n\n1858.0819\n\n1854.6100\n\n1854.1600\n\n1853.6100\n\nCOUNT\n\n1480\n\n1550\n\n2620\n\n1925\n\n1762\n\n"
+        ],
+        [],
+        [
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "Project: Gold Price Trend Prediction\n",
+            "Raw news data table\n",
+            "Reuters Eikon Interface\n",
+            "Date\n0 2021-02-01 01:00:00\n1 2021-02-01 08:00:00\n2 2021-02-01 11:00:00\n3 2021-02-01 13:00:00\n\n4 2021-02-01 14:00:00\n\nHeadline\n\nPRECIOUS-Silver surges to near 6-month peak on...\nPRECIOUS-Retail mania propels silver prices to...\nUPDATE 1-India cuts import tax on gold, indust...\nGRAPHIC-Silver fund inflows surge in January o...\n\nPRECIOUS-Silver scales 8-year peak as investor...\n\nraw_news\nFeb 1 (Reuters) - Silver soared as much as 7.4...\nPhysical silver demand more than doubled since...\nSlashes gold, silver import duty to 7.5% from ...\nBy Patturaja MurugaboopathyFeb 1 (Reuters) - ...\n\nExcessive price rise can hamper physical deman...\n\n",
+            "MARKETS NEWS CHARTING COMPANY RESEARCH FILINGS & EVENTS PORTFOLIOS &\nClick here to try the new version of News Monitor\nFA © Topics ~ =Q | KAU®! AND! /Engiish) [AND’ © [Significant News) |: c, Portfolio\n% Y @©MostRecenty EJAlvy 7\nRTRS 04:34:53 AM ©) GLOBAL MARKETS-Stocks slide, dollar gains on hot U.S. inflation data\nRTRS 04:09:20 AM —_) LIVE MARKETS-Wall Street ends week with a steep drop after CPI scare\nGURU 04:08:42 AM —_—_Gold intraday: the upside prevails as long as 1864 is support\nRTRS 03:03:36 AM —_} GLOBAL MARKETS-Stocks slide, dollar gains on hot U.S. inflation data\nRTRS 03:01:28 AM —_) PRECIOUS-Gold rebounds in roller coaster trade as economic fears grow\nRTRS 01:53:42 AM ©) LIVE MARKETS-Oil: the new gold?\nRTRS 01:11:31 AM >) REFILE-LIVE MARKETS-Cresset's models suggest S&P 500 still needs a haircut\nRTRS 01:03:20AM —<) REFILE-LIVE MARKETS-Cresset's models suggest S&P 500 still needs a haircut\nRTRS 12:12:41 AM <> LIVE MARKETS-Semis drop as investors eye higher rates, PC slowdown\n10 June 2022\nRTRS 11:57:24PM ©) LIVE MARKETS-Banks raise Fed rate calls after hot CPI\nRTRS 11:39:32PM <> LIVE MARKETS-Stoxx 600 ends the worst week in one month\nRTRS 11:09:29PM —__) GLOBAL MARKETS-Stocks slide, dollar gains on hot U.S. inflation data\nRTRS 11:04:39 PM <> LIVE MARKETS-Summertime blues: CPI scorches, consumer sentiment plunges to record low\n\n",
+            "Price data table\n",
+            "> © ND\n\nDate\n\n2021-01-25 00:00:00\n\n2021-01-25 01:00:00\n\n2021-01-25 02:00:00\n\n2021-01-25 03:00:00\n\n2021-01-25 04:00:00\n\nHIGH\n\n1859.0900\n\n1859.6969\n\n1859.6334\n\n1855.8600\n\n1855.4700\n\nLOW\n\n1853.4900\n\n1855.0419\n\n1852.4263\n\n1853.3058\n\n1852.9384\n\nOPEN\n\n1854.2900\n\n1856.6600\n\n1858.0425\n\n1854.4380\n\n1853.9886\n\nCLOSE\n\n1856.6100\n\n1858.0819\n\n1854.6100\n\n1854.1600\n\n1853.6100\n\nCOUNT\n\n1480\n\n1550\n\n2620\n\n1925\n\n1762\n\n",
+            "2022 EBAC Project By: Xiaohong, Haoxin, Yansun, Chenchen & Youwen\n",
+            "© National University of Singapore. All Rights Reserved.\n",
+            "36\n"
+        ]
+    ],
+    "Page_36": [
+        [
+            "image",
+            "image",
+            "3. Fraud Detection\n",
+            "• Early warning of fraud and misconduct in chat messaging and emails.\n",
+            "image",
+            "image",
+            "Source: https://venturebeat.com/2022/07/20/5-ways-ai-is-detecting-and-preventing-identity-fraud/ \n",
+            "© National University of Singapore. All Rights Reserved.\n",
+            "37\n"
+        ],
+        [
+            "image",
+            "image",
+            [
+                "GEDINH+Calibri",
+                36.0
+            ],
+            [
+                24.0,
+                "GEDINH+Calibri",
+                "RFQWLL+ArialMT"
+            ],
+            "image",
+            "image",
+            [
+                "GEDINH+Calibri",
+                "JTPADB+TwCenMT-Regular",
+                9.96
+            ],
+            [
+                "GEDINH+Calibri",
+                12.0
+            ],
+            [
+                "GEDINH+Calibri",
+                12.0
+            ]
+        ],
+        [
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "Which technologies have\nhad the most significant\nImpact on preventing fraud\nfor your organization?\n\nBy far, multi-factor authentication has had the most significant\n\nImpact on fraud prevention, with 73% of respondents citing It as\ntheir top preventive technology. Also effective, say 52%, Is Al and\nmachine learning technologies.\n\nMulti-factor\nauthentication\n\nAl/Machine\nlearning 52%\n\nDigital identity\nverification 40%\n\nBehavioral metrics 30%\nDevice ID 28%\nManual processes 20%\ne Based ‘tools 18%\n\n‘Other 4%\n\n“summary Results: May 2022 @ telesign\n",
+            "5 ways Al is detecting and\npreventing identity fraud\n\n"
+        ],
+        [],
+        [
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "3. Fraud Detection\n",
+            "• Early warning of fraud and misconduct in chat messaging and emails.\n",
+            "Which technologies have\nhad the most significant\nImpact on preventing fraud\nfor your organization?\n\nBy far, multi-factor authentication has had the most significant\n\nImpact on fraud prevention, with 73% of respondents citing It as\ntheir top preventive technology. Also effective, say 52%, Is Al and\nmachine learning technologies.\n\nMulti-factor\nauthentication\n\nAl/Machine\nlearning 52%\n\nDigital identity\nverification 40%\n\nBehavioral metrics 30%\nDevice ID 28%\nManual processes 20%\ne Based ‘tools 18%\n\n‘Other 4%\n\n“summary Results: May 2022 @ telesign\n",
+            "5 ways Al is detecting and\npreventing identity fraud\n\n",
+            "Source: https://venturebeat.com/2022/07/20/5-ways-ai-is-detecting-and-preventing-identity-fraud/ \n",
+            "© National University of Singapore. All Rights Reserved.\n",
+            "37\n"
+        ]
+    ],
+    "Page_37": [
+        [
+            "image",
+            "image",
+            "Fraud Detection for Cryptocurrency Scheme\n",
+            "image",
+            "image",
+            "Problem: Prospective investors (PI) are susceptible to \nmonetary losses in the open market due to factors such as \nthe pseudo-anonymity of cryptocurrency transactions, \nnon-transparency of money generation and distribution \namong peers, and untraceable scams.\n",
+            "Solution: KaRuNa – a framework to help PI evaluate \ninvestment risks accurately and build trust in the \ncryptocurrency market\n",
+            "Link: Sureshbhai, P. N., Bhattacharya, P., & Tanwar, S. (2020, June). KaRuNa: A blockchain-based sentiment analysis framework for fraud cryptocurrency schemes. Link: \nhttps://nirmawebsite.s3.ap-south-1.amazonaws.com/wp-content/uploads/sites/22/2022/03/KaRuNa.pdf \n",
+            "© National University of Singapore. All Rights Reserved.\n",
+            "38\n"
+        ],
+        [
+            "image",
+            "image",
+            [
+                "GEDINH+Calibri",
+                36.0
+            ],
+            "image",
+            "image",
+            [
+                "GEDINH+Calibri",
+                18.0,
+                17.99999999999997
+            ],
+            [
+                "GEDINH+Calibri",
+                18.0,
+                17.99999999999997,
+                17.999999999999986
+            ],
+            [
+                "GEDINH+Calibri",
+                11.999999999999993,
+                12.0
+            ],
+            [
+                "GEDINH+Calibri",
+                12.0
+            ],
+            [
+                "GEDINH+Calibri",
+                12.0
+            ]
+        ],
+        [
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "KaRuNa: A Blockchain-based Sentiment Analysis\nFramework for Fraud Cryptocurrency Schemes\n\nPatel Nikunjkumar Sureshbhai*, Pronaya Bhattacharya', Sudeep Tanwar?\n*t!Department of Computer Science and Engineering, Institute of Technology, Nirma University, Ahmedabad, Gujarat, India\nEmail: * 1 7bce083 @nirmauni.ac.in, ‘ pronoya.bhattacharya@nirmauni.ac.in, !sudeep.tanwar@nirmauni.ac.in\n",
+            "©-G- i-*\ni <! Historical database server\n\nSentiment analysis framework\n\nData Categorization (data reduction, data discretization\n\nData Preprocessing (data cleaning, data transformation\n\nnegative feedback\npositive feedback\n\nreal-time updation\n\nFig. 1: KaRuNa: System Model\n"
+        ],
+        [],
+        [
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "Fraud Detection for Cryptocurrency Scheme\n",
+            "KaRuNa: A Blockchain-based Sentiment Analysis\nFramework for Fraud Cryptocurrency Schemes\n\nPatel Nikunjkumar Sureshbhai*, Pronaya Bhattacharya', Sudeep Tanwar?\n*t!Department of Computer Science and Engineering, Institute of Technology, Nirma University, Ahmedabad, Gujarat, India\nEmail: * 1 7bce083 @nirmauni.ac.in, ‘ pronoya.bhattacharya@nirmauni.ac.in, !sudeep.tanwar@nirmauni.ac.in\n",
+            "©-G- i-*\ni <! Historical database server\n\nSentiment analysis framework\n\nData Categorization (data reduction, data discretization\n\nData Preprocessing (data cleaning, data transformation\n\nnegative feedback\npositive feedback\n\nreal-time updation\n\nFig. 1: KaRuNa: System Model\n",
+            "Problem: Prospective investors (PI) are susceptible to \nmonetary losses in the open market due to factors such as \nthe pseudo-anonymity of cryptocurrency transactions, \nnon-transparency of money generation and distribution \namong peers, and untraceable scams.\n",
+            "Solution: KaRuNa – a framework to help PI evaluate \ninvestment risks accurately and build trust in the \ncryptocurrency market\n",
+            "Link: Sureshbhai, P. N., Bhattacharya, P., & Tanwar, S. (2020, June). KaRuNa: A blockchain-based sentiment analysis framework for fraud cryptocurrency schemes. Link: \nhttps://nirmawebsite.s3.ap-south-1.amazonaws.com/wp-content/uploads/sites/22/2022/03/KaRuNa.pdf \n",
+            "© National University of Singapore. All Rights Reserved.\n",
+            "38\n"
+        ]
+    ],
+    "Page_38": [
+        [
+            "image",
+            "image",
+            "NLP for Fraud Detection in Derivatives Market \n",
+            "image",
+            "Source: Liu Pan, Natural Language Processing for fraud detection in derivatives market - 17 June 2021. Link: https://www.youtube.com/watch?v=CK6L8Y5zzxM\n",
+            "© National University of Singapore. All Rights Reserved.\n",
+            "39\n"
+        ],
+        [
+            "image",
+            "image",
+            [
+                "GEDINH+Calibri",
+                36.0
+            ],
+            "image",
+            [
+                "GEDINH+Calibri",
+                "JTPADB+TwCenMT-Regular",
+                9.96
+            ],
+            [
+                "GEDINH+Calibri",
+                12.0
+            ],
+            [
+                "GEDINH+Calibri",
+                12.0
+            ]
+        ],
+        [
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "Objective gees\n\n. + ee\n* Background\n\n- Derivatives are becoming increasingly popular instruments for financial frauds.\n- Current market surveillance system can't leverage textual information.\nObjective\nExtract financial event analytics from textual data that can be combined with market &\ntrading data, to detect frauds especially illegal Insider Trading* in the derivatives market.\n* Trading based on material nonpublic information.\n« Added value for regulator (vs. rule-based system)\n¥ Increase alerts precision (Currently false alerts are overwhelming)\nY Discover hidden suspicious trading patterns\n¥ Provide organized contextual information for investigation\n\neee 3 Market events info buried in tremendous Scarcity of labeled (annotated)\namount of unstructured textual data financial textual data\n"
+        ],
+        [],
+        [
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "NLP for Fraud Detection in Derivatives Market \n",
+            "Objective gees\n\n. + ee\n* Background\n\n- Derivatives are becoming increasingly popular instruments for financial frauds.\n- Current market surveillance system can't leverage textual information.\nObjective\nExtract financial event analytics from textual data that can be combined with market &\ntrading data, to detect frauds especially illegal Insider Trading* in the derivatives market.\n* Trading based on material nonpublic information.\n« Added value for regulator (vs. rule-based system)\n¥ Increase alerts precision (Currently false alerts are overwhelming)\nY Discover hidden suspicious trading patterns\n¥ Provide organized contextual information for investigation\n\neee 3 Market events info buried in tremendous Scarcity of labeled (annotated)\namount of unstructured textual data financial textual data\n",
+            "Source: Liu Pan, Natural Language Processing for fraud detection in derivatives market - 17 June 2021. Link: https://www.youtube.com/watch?v=CK6L8Y5zzxM\n",
+            "© National University of Singapore. All Rights Reserved.\n",
+            "39\n"
+        ]
+    ],
+    "Page_39": [
+        [
+            "image",
+            "image",
+            "Event-based Insider Trading Detection\n",
+            "image",
+            "Source: Liu Pan, Natural Language Processing for fraud detection in derivatives market - 17 June 2021. Link: https://www.youtube.com/watch?v=CK6L8Y5zzxM\n",
+            "© National University of Singapore. All Rights Reserved.\n",
+            "40\n"
+        ],
+        [
+            "image",
+            "image",
+            [
+                "GEDINH+Calibri",
+                36.0
+            ],
+            "image",
+            [
+                "GEDINH+Calibri",
+                "JTPADB+TwCenMT-Regular",
+                9.96
+            ],
+            [
+                "GEDINH+Calibri",
+                12.0
+            ],
+            [
+                "GEDINH+Calibri",
+                12.0
+            ]
+        ],
+        [
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "-HILT-N GSU THISIGVEr! TdaUllilg, VELCCLIUT!\n\nMethodology\n\nMarket News Monitor\n\nTasks:\nee eee - Clustering\ncr ; - Classification\n1\nNatural Language ,| ...\nPr ing (NLP) 1\n' ocessing (NLP) , | Solution:\nClassical NLP tech +\nTransfer learning\n\ni ae een gee ae\n!\n\nDiscover suspicious trades\n\nEvaluate and investigate by specialists\nEvent-based insider trading detection\n\n"
+        ],
+        [],
+        [
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "Event-based Insider Trading Detection\n",
+            "-HILT-N GSU THISIGVEr! TdaUllilg, VELCCLIUT!\n\nMethodology\n\nMarket News Monitor\n\nTasks:\nee eee - Clustering\ncr ; - Classification\n1\nNatural Language ,| ...\nPr ing (NLP) 1\n' ocessing (NLP) , | Solution:\nClassical NLP tech +\nTransfer learning\n\ni ae een gee ae\n!\n\nDiscover suspicious trades\n\nEvaluate and investigate by specialists\nEvent-based insider trading detection\n\n",
+            "Source: Liu Pan, Natural Language Processing for fraud detection in derivatives market - 17 June 2021. Link: https://www.youtube.com/watch?v=CK6L8Y5zzxM\n",
+            "© National University of Singapore. All Rights Reserved.\n",
+            "40\n"
+        ]
+    ],
+    "Page_40": [
+        [
+            "image",
+            "image",
+            "4. Public Opinion Formation \n",
+            "• Winning Presidential Campaign through Targeted Messaging\n",
+            "image",
+            "image",
+            "Source: https://www.scmp.com/yp/learn/college-uni-life/university-programmes/article/3071524/how-data-analytics-helped-obama-win \n",
+            "© National University of Singapore. All Rights Reserved.\n",
+            "41\n"
+        ],
+        [
+            "image",
+            "image",
+            [
+                "GEDINH+Calibri",
+                36.0
+            ],
+            [
+                24.0,
+                "GEDINH+Calibri",
+                "RFQWLL+ArialMT"
+            ],
+            "image",
+            "image",
+            [
+                "GEDINH+Calibri",
+                "JTPADB+TwCenMT-Regular",
+                9.96
+            ],
+            [
+                "GEDINH+Calibri",
+                12.0
+            ],
+            [
+                "GEDINH+Calibri",
+                12.0
+            ]
+        ],
+        [
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "How data analytics helped Obama win the 2012\nUS presidential election\n\nThe former president used technology to track voter patterns and raise USS1 billion for his campaign\n\nBy Zhang Yan, Department of Systems Engineering and Engineering Management, College of Science and Engineering, City University of Hong Kong |\nPublished: 11:00am, 19 Apr, 2018 ¥\n\nAg\nthrough ¢\n\nreat p\n\nsent to si\ndifferent\n\nObama's\n\nMessina\n",
+            "A great proportion of online donations during fundraising drives for his presidential bid came\nthrough an “intricate, metric-driven e-mail campaign”. In this process, many of the emails\nsent to supportersfeame under different subject lines and messages pnd were from\ndifferent senders. After collecting the results, the Obama team noticed that emails from\nObama's wife, Michelle, had the best effect, while those from Obama's political adviser Jim\nMessina were better received than those from Obama's running mate Joe Biden.\n\n"
+        ],
+        [],
+        [
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "4. Public Opinion Formation \n",
+            "• Winning Presidential Campaign through Targeted Messaging\n",
+            "How data analytics helped Obama win the 2012\nUS presidential election\n\nThe former president used technology to track voter patterns and raise USS1 billion for his campaign\n\nBy Zhang Yan, Department of Systems Engineering and Engineering Management, College of Science and Engineering, City University of Hong Kong |\nPublished: 11:00am, 19 Apr, 2018 ¥\n\nAg\nthrough ¢\n\nreat p\n\nsent to si\ndifferent\n\nObama's\n\nMessina\n",
+            "A great proportion of online donations during fundraising drives for his presidential bid came\nthrough an “intricate, metric-driven e-mail campaign”. In this process, many of the emails\nsent to supportersfeame under different subject lines and messages pnd were from\ndifferent senders. After collecting the results, the Obama team noticed that emails from\nObama's wife, Michelle, had the best effect, while those from Obama's political adviser Jim\nMessina were better received than those from Obama's running mate Joe Biden.\n\n",
+            "Source: https://www.scmp.com/yp/learn/college-uni-life/university-programmes/article/3071524/how-data-analytics-helped-obama-win \n",
+            "© National University of Singapore. All Rights Reserved.\n",
+            "41\n"
+        ]
+    ],
+    "Page_41": [
+        [
+            "image",
+            "image",
+            "Foreign Intervention in Public Opinion\n",
+            "• Detecting Foreign Interventions in Electoral Processes\n",
+            "image",
+            "image",
+            "Source: https://www.reuters.com/article/us-usa-trump-russia-socialmedia-idUSKBN1OG257 \n",
+            "© National University of Singapore. All Rights Reserved.\n",
+            "42\n"
+        ],
+        [
+            "image",
+            "image",
+            [
+                "GEDINH+Calibri",
+                36.0
+            ],
+            [
+                24.0,
+                "GEDINH+Calibri",
+                "RFQWLL+ArialMT"
+            ],
+            "image",
+            "image",
+            [
+                "GEDINH+Calibri",
+                9.96
+            ],
+            [
+                "GEDINH+Calibri",
+                12.0
+            ],
+            [
+                "GEDINH+Calibri",
+                12.0
+            ]
+        ],
+        [
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "MEDIA AND TELECOMS DECEMBER 18, 2018 / 3:18 AM / UPDATED 4 YEARS AGO\n\nRussia used social media for widespread\nmeddling in U.S. politics: reports\n\nBy Mark Hosenball 4 MIN READ f v\n\nWASHINGTON (Reuters) - Russian interference in the 2016 U.S. presidential\nelection on social media was more widespread than previously thought and\nincluded attempts to divide Americans by race and extreme ideology, said reports\n\nby private experts released on Monday by U.S. senators from both parties.\n",
+            ""
+        ],
+        [],
+        [
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "Foreign Intervention in Public Opinion\n",
+            "• Detecting Foreign Interventions in Electoral Processes\n",
+            "MEDIA AND TELECOMS DECEMBER 18, 2018 / 3:18 AM / UPDATED 4 YEARS AGO\n\nRussia used social media for widespread\nmeddling in U.S. politics: reports\n\nBy Mark Hosenball 4 MIN READ f v\n\nWASHINGTON (Reuters) - Russian interference in the 2016 U.S. presidential\nelection on social media was more widespread than previously thought and\nincluded attempts to divide Americans by race and extreme ideology, said reports\n\nby private experts released on Monday by U.S. senators from both parties.\n",
+            "",
+            "Source: https://www.reuters.com/article/us-usa-trump-russia-socialmedia-idUSKBN1OG257 \n",
+            "© National University of Singapore. All Rights Reserved.\n",
+            "42\n"
+        ]
+    ],
+    "Page_42": [
+        [
+            "image",
+            "image",
+            "Social Media Manipulation in Elections\n",
+            "image",
+            "image",
+            "Examine two aspects of social media manipulation:\n",
+            "1. Automation – likelihood of user being a human \n",
+            "or bot\n",
+            "2. Narrative Distortion – emergence and spread of \n",
+            "political conspiracies\n",
+            "Sentiment score derived using Valence Aware \nDictionary and Sentiment Reasoner (VADER; Hutto \nand Gilbert, 2014) for each tweet\n",
+            "Link: https://journals.uic.edu/ojs/index.php/fm/article/download/11431/9993 \n",
+            "© National University of Singapore. All Rights Reserved.\n",
+            "43\n"
+        ],
+        [
+            "image",
+            "image",
+            [
+                "GEDINH+Calibri",
+                36.0
+            ],
+            "image",
+            "image",
+            [
+                "GEDINH+Calibri",
+                18.0
+            ],
+            [
+                "GEDINH+Calibri",
+                17.99999999999997
+            ],
+            [
+                "GEDINH+Calibri",
+                18.0
+            ],
+            [
+                "GEDINH+Calibri",
+                18.0
+            ],
+            [
+                "GEDINH+Calibri",
+                17.99999999999997
+            ],
+            [
+                "GEDINH+Calibri",
+                18.0
+            ],
+            [
+                "GEDINH+Calibri",
+                14.039999999999992
+            ],
+            [
+                "GEDINH+Calibri",
+                12.0
+            ],
+            [
+                "GEDINH+Calibri",
+                12.0
+            ]
+        ],
+        [
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "Characterizing social media manipulation\n\nin the 2020 U.S. presidential election\n\nby Emilio Ferrara, Herbert Chang, Emily Chen,\nGoran Muric, and Jaimin Patel\n\n",
+            "Number of Tweets\n\nNumber of Distinct Users\n\nNumber of Original Tweets\n\nNumber of Retweets\n\nNumber of Quoted Tweets\n\n242,087,331\n10,392,492\n77,899,697\n120,241,702\n\n43,945,932\n\nTable 1: Descriptive statistics of our datasets.\n"
+        ],
+        [],
+        [
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "Social Media Manipulation in Elections\n",
+            "Characterizing social media manipulation\n\nin the 2020 U.S. presidential election\n\nby Emilio Ferrara, Herbert Chang, Emily Chen,\nGoran Muric, and Jaimin Patel\n\n",
+            "Number of Tweets\n\nNumber of Distinct Users\n\nNumber of Original Tweets\n\nNumber of Retweets\n\nNumber of Quoted Tweets\n\n242,087,331\n10,392,492\n77,899,697\n120,241,702\n\n43,945,932\n\nTable 1: Descriptive statistics of our datasets.\n",
+            "Examine two aspects of social media manipulation:\n",
+            "1. Automation – likelihood of user being a human \n",
+            "or bot\n",
+            "2. Narrative Distortion – emergence and spread of \n",
+            "political conspiracies\n",
+            "Sentiment score derived using Valence Aware \nDictionary and Sentiment Reasoner (VADER; Hutto \nand Gilbert, 2014) for each tweet\n",
+            "Link: https://journals.uic.edu/ojs/index.php/fm/article/download/11431/9993 \n",
+            "© National University of Singapore. All Rights Reserved.\n",
+            "43\n"
+        ]
+    ],
+    "Page_43": [
+        [
+            "table",
+            "image",
+            "image",
+            "Social Media Disinformation & Information\n",
+            "image",
+            "image",
+            "Source (left): Matthew Fulco, China Intensifies Taiwan Social Media Influence Operations. Link: https://topics.amcham.com.tw/2022/09/china-intensifies-taiwan-social-media-influence-operations/\nSource (right): Matthew Loh, Video of Taiwanese soldiers hurling rocks at Chinese drone sparks island's pledge to bolster defense systems. https://www.businessinsider.com/video-shows-taiwanese-\nsoldiers-throwing-rocks-at-chinese-drone-2022-8 \n",
+            "© National University of Singapore. All Rights Reserved.\n",
+            "44\n"
+        ],
+        [
+            "table",
+            "image",
+            "image",
+            [
+                "GEDINH+Calibri",
+                36.0
+            ],
+            "image",
+            "image",
+            [
+                11.04,
+                "GEDINH+Calibri",
+                11.039999999999992
+            ],
+            [
+                "GEDINH+Calibri",
+                12.0
+            ],
+            [
+                "GEDINH+Calibri",
+                12.0
+            ]
+        ],
+        [
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "S/S EA wen ee\n\nSER! SEISir.7\n\n“The People’s Liberation Army has taken control of Kinmen! With the\n\nconditions of the exchange exposed, the United States is furious!” read the\n\ncaptions of a video aimed at misguiding Taiwanese viewers.\n\n",
+            "- ae\n\noe 4 4 e\nA\n\nSig wt Hake) > aT RITVBS NEWS4a%8\n\n"
+        ],
+        [
+            "|||"
+        ],
+        [
+            "|||",
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "Social Media Disinformation & Information\n",
+            "S/S EA wen ee\n\nSER! SEISir.7\n\n“The People’s Liberation Army has taken control of Kinmen! With the\n\nconditions of the exchange exposed, the United States is furious!” read the\n\ncaptions of a video aimed at misguiding Taiwanese viewers.\n\n",
+            "- ae\n\noe 4 4 e\nA\n\nSig wt Hake) > aT RITVBS NEWS4a%8\n\n",
+            "Source (left): Matthew Fulco, China Intensifies Taiwan Social Media Influence Operations. Link: https://topics.amcham.com.tw/2022/09/china-intensifies-taiwan-social-media-influence-operations/\nSource (right): Matthew Loh, Video of Taiwanese soldiers hurling rocks at Chinese drone sparks island's pledge to bolster defense systems. https://www.businessinsider.com/video-shows-taiwanese-\nsoldiers-throwing-rocks-at-chinese-drone-2022-8 \n",
+            "© National University of Singapore. All Rights Reserved.\n",
+            "44\n"
+        ]
+    ],
+    "Page_44": [
+        [
+            "table",
+            "image",
+            "image",
+            "5. Perceptions of Public Policy \n",
+            "• Evaluate Public Sentiment about Government Policies\n",
+            "image",
+            "image",
+            "Source: https://www.sciencedirect.com/science/article/pii/S2667096821000148 \n",
+            "© National University of Singapore. All Rights Reserved.\n",
+            "45\n"
+        ],
+        [
+            "table",
+            "image",
+            "image",
+            [
+                "GEDINH+Calibri",
+                36.0
+            ],
+            [
+                24.0,
+                "GEDINH+Calibri",
+                "RFQWLL+ArialMT"
+            ],
+            "image",
+            "image",
+            [
+                "GEDINH+Calibri",
+                14.04
+            ],
+            [
+                "GEDINH+Calibri",
+                12.0
+            ],
+            [
+                "GEDINH+Calibri",
+                12.0
+            ]
+        ],
+        [
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "De-Dollarization and the Importance of Public\nSentiment in Cambodia\n\nThe challenge of promoting the use of the riel is not just one of monetary policy. It\nalso touches on questions of Cambodian national identity.\n\nBy Leang Seakleng\n\nThere are a number of reasons why the Cambodian\ngovernment has long sought to achieve “rielization” — limiting\nthe use of the United States dollar and promoting the\ncirculation of the local currency, the riel.\n\nFirst, as Chea Serey, governor of the National Bank of\nCambodia (NBC), has put it, widespread use of the riel “could\nenhance the effectiveness of conducting monetary policy to\nmaintain price stability and support economic growth.”\n\nSecond, the NBC cannot be a lender of last resort — offering\nloans to banks or other eligible institutions that are Depositphotos\nexperiencing financial difficulties — if it cannot get people to\n\nhold the local currency.\n\n",
+            "Is organic farming to blame for Sri\nLanka’s crisis?\n\nBy DEBRA KAHN, JORDAN WOLMAN and LORRAINE WOELLERT | 07/19/2022 12:02 PM EDT\n\nPresented ty ENE\n\nTHE BIG IDEA\n\nProtestors burn an effigy of acting President and Prime Minister Ranil Wickremesinghe as they demand his\nresignation in Colombo, Sri Lanka. | Rafiq Maqbool/AP Photo\n\n"
+        ],
+        [
+            "|||"
+        ],
+        [
+            "|||",
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "5. Perceptions of Public Policy \n",
+            "• Evaluate Public Sentiment about Government Policies\n",
+            "De-Dollarization and the Importance of Public\nSentiment in Cambodia\n\nThe challenge of promoting the use of the riel is not just one of monetary policy. It\nalso touches on questions of Cambodian national identity.\n\nBy Leang Seakleng\n\nThere are a number of reasons why the Cambodian\ngovernment has long sought to achieve “rielization” — limiting\nthe use of the United States dollar and promoting the\ncirculation of the local currency, the riel.\n\nFirst, as Chea Serey, governor of the National Bank of\nCambodia (NBC), has put it, widespread use of the riel “could\nenhance the effectiveness of conducting monetary policy to\nmaintain price stability and support economic growth.”\n\nSecond, the NBC cannot be a lender of last resort — offering\nloans to banks or other eligible institutions that are Depositphotos\nexperiencing financial difficulties — if it cannot get people to\n\nhold the local currency.\n\n",
+            "Is organic farming to blame for Sri\nLanka’s crisis?\n\nBy DEBRA KAHN, JORDAN WOLMAN and LORRAINE WOELLERT | 07/19/2022 12:02 PM EDT\n\nPresented ty ENE\n\nTHE BIG IDEA\n\nProtestors burn an effigy of acting President and Prime Minister Ranil Wickremesinghe as they demand his\nresignation in Colombo, Sri Lanka. | Rafiq Maqbool/AP Photo\n\n",
+            "Source: https://www.sciencedirect.com/science/article/pii/S2667096821000148 \n",
+            "© National University of Singapore. All Rights Reserved.\n",
+            "45\n"
+        ]
+    ],
+    "Page_45": [
+        [
+            "image",
+            "image",
+            "COVID-19 – Public Sentiment using Twitter Data\n",
+            "image",
+            "image",
+            "Emotion Detection\nJoy <---> Fear  \n",
+            "Source: Ridhwan, K. M., & Hargreaves, C. A. (2021). Leveraging Twitter data to understand public sentiment for the \nCOVID-19 outbreak in Singapore. Link: https://www.sciencedirect.com/science/article/pii/S2667096821000148 \n",
+            "© National University of Singapore. All Rights Reserved.\n",
+            "46\n"
+        ],
+        [
+            "image",
+            "image",
+            [
+                "GEDINH+Calibri",
+                36.0
+            ],
+            "image",
+            "image",
+            [
+                "JTPADB+TwCenMT-Regular",
+                18.0
+            ],
+            [
+                "GEDINH+Calibri",
+                14.040000000000006,
+                14.04
+            ],
+            [
+                "GEDINH+Calibri",
+                12.0
+            ],
+            [
+                "GEDINH+Calibri",
+                12.0
+            ]
+        ],
+        [
+            "National University IS ——\nof Singapore\n\n",
+            "National University IS ——\nof Singapore\n\n",
+            "Data cleaning\n\nRemove\nduplicates,\nspams,\nadvertisements,\ntweets from\nMalaysia\n\nData collection\n\nTool: snscrape\nLocation: near\nSingapore\n\nData\npreprocessing (I)\n\nRemove only\nhyperlinks, URLs,\nuser mentions and\nexcessive spaces\n\nData preprocessing\n(n)\n\nRemove ‘RT’, user info,\nweb links, hashtegs,\naudio/video tags,\npunctuations, double\nspaces, numbers,\nlowercase, tokenize,\ndrop <=3-character\ntokens, stop words,\n\nform bigrams and bag-\n\nof-words vectors\n\nEmotion analysis\n\nTool: Pretrained RNN\nSetting: Multiclass\n\nSentiment analysis\n\nTool: VADER\nUse compound score to\nclassify into positive,\nnegative, neutral\n\nTopic modeling\n\nUse LDA to obtain\nupper bound number of\ntopics for GSDMM\nmodel\n\npyLDAvis to visualize 35\ntopics in 2D\n\nSentiment\nanalysis per\ntopic\n\nCombine results\nfrom both\nmethods and\nanalyse\n\nSentiment Analysis, Emotion Analysis, Topic Modeling\n\nJd\n\nData collection, Cleaning and Pre-processing\n",
+            "_ International Journal of Information Management\nData Insights\n\nVolume 1, Issue 2, November 2021, 100021\n\nLeveraging Twitter data to understand public\nsentiment for the COVID-19 outbreak in\nSingapore\n\nKhairiyah Mohamed Ridhwan, Carol Anne Hargreaves 2 8\n\nDepartment of Statistics and Applied Probability, National University of Singapore, Singapore\n\n"
+        ],
+        [],
+        [
+            "National University IS ——\nof Singapore\n\n",
+            "National University IS ——\nof Singapore\n\n",
+            "COVID-19 – Public Sentiment using Twitter Data\n",
+            "Data cleaning\n\nRemove\nduplicates,\nspams,\nadvertisements,\ntweets from\nMalaysia\n\nData collection\n\nTool: snscrape\nLocation: near\nSingapore\n\nData\npreprocessing (I)\n\nRemove only\nhyperlinks, URLs,\nuser mentions and\nexcessive spaces\n\nData preprocessing\n(n)\n\nRemove ‘RT’, user info,\nweb links, hashtegs,\naudio/video tags,\npunctuations, double\nspaces, numbers,\nlowercase, tokenize,\ndrop <=3-character\ntokens, stop words,\n\nform bigrams and bag-\n\nof-words vectors\n\nEmotion analysis\n\nTool: Pretrained RNN\nSetting: Multiclass\n\nSentiment analysis\n\nTool: VADER\nUse compound score to\nclassify into positive,\nnegative, neutral\n\nTopic modeling\n\nUse LDA to obtain\nupper bound number of\ntopics for GSDMM\nmodel\n\npyLDAvis to visualize 35\ntopics in 2D\n\nSentiment\nanalysis per\ntopic\n\nCombine results\nfrom both\nmethods and\nanalyse\n\nSentiment Analysis, Emotion Analysis, Topic Modeling\n\nJd\n\nData collection, Cleaning and Pre-processing\n",
+            "_ International Journal of Information Management\nData Insights\n\nVolume 1, Issue 2, November 2021, 100021\n\nLeveraging Twitter data to understand public\nsentiment for the COVID-19 outbreak in\nSingapore\n\nKhairiyah Mohamed Ridhwan, Carol Anne Hargreaves 2 8\n\nDepartment of Statistics and Applied Probability, National University of Singapore, Singapore\n\n",
+            "Emotion Detection\nJoy <---> Fear  \n",
+            "Source: Ridhwan, K. M., & Hargreaves, C. A. (2021). Leveraging Twitter data to understand public sentiment for the \nCOVID-19 outbreak in Singapore. Link: https://www.sciencedirect.com/science/article/pii/S2667096821000148 \n",
+            "© National University of Singapore. All Rights Reserved.\n",
+            "46\n"
+        ]
+    ],
+    "Page_46": [
+        [
+            "image",
+            "image",
+            "COVID-19 – Public Sentiment using Reddit Data\n",
+            "image",
+            "Problem: Governments worldwide are taking various measures to prevent the spreading of COVID \nvirus. One such effort is digital contact tracing. However, many critics view digital contact tracing as an \nattempt of the government to control people and a fundamental breach of privacy. \n",
+            "Method: Textblob to generate sentiment scores and Latent Dirichlet Allocation to derive a set of topics \nfrom the Reddit text posts\n",
+            "Source: SV, P., & Ittamalla, R. (2022). General public’s attitude toward governments implementing digital contact tracing to curb COVID-19 – a \nstudy based on natural language processing. Link: https://www.sciencedirect.com/science/article/pii/S2667096821000148 \n",
+            "© National University of Singapore. All Rights Reserved.\n",
+            "47\n"
+        ],
+        [
+            "image",
+            "image",
+            [
+                "GEDINH+Calibri",
+                36.0
+            ],
+            "image",
+            [
+                "GEDINH+Calibri",
+                18.0,
+                17.99999999999997
+            ],
+            [
+                "GEDINH+Calibri",
+                18.0,
+                17.999999999999986
+            ],
+            [
+                "GEDINH+Calibri",
+                14.040000000000006,
+                14.04
+            ],
+            [
+                "GEDINH+Calibri",
+                12.0
+            ],
+            [
+                "GEDINH+Calibri",
+                12.0
+            ]
+        ],
+        [
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "General public's attitude toward governments implementing digital contact\ntracing to curb COVID-19 - a study based on natural language processing\n\nPraveen S.V., Rajesh Ittamalla_ ~\n\nInternational Journal of Pervasive Computing and DOWNLOADS ALTMETRICS\n\nCommunications [B= 'o)\nISSN: 1742-7371\n\nArticle publication date: 30 September 2020 [@ Reprints & Permissions |\nIssue publication date: 25 November 2022\n"
+        ],
+        [],
+        [
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "COVID-19 – Public Sentiment using Reddit Data\n",
+            "General public's attitude toward governments implementing digital contact\ntracing to curb COVID-19 - a study based on natural language processing\n\nPraveen S.V., Rajesh Ittamalla_ ~\n\nInternational Journal of Pervasive Computing and DOWNLOADS ALTMETRICS\n\nCommunications [B= 'o)\nISSN: 1742-7371\n\nArticle publication date: 30 September 2020 [@ Reprints & Permissions |\nIssue publication date: 25 November 2022\n",
+            "Problem: Governments worldwide are taking various measures to prevent the spreading of COVID \nvirus. One such effort is digital contact tracing. However, many critics view digital contact tracing as an \nattempt of the government to control people and a fundamental breach of privacy. \n",
+            "Method: Textblob to generate sentiment scores and Latent Dirichlet Allocation to derive a set of topics \nfrom the Reddit text posts\n",
+            "Source: SV, P., & Ittamalla, R. (2022). General public’s attitude toward governments implementing digital contact tracing to curb COVID-19 – a \nstudy based on natural language processing. Link: https://www.sciencedirect.com/science/article/pii/S2667096821000148 \n",
+            "© National University of Singapore. All Rights Reserved.\n",
+            "47\n"
+        ]
+    ],
+    "Page_47": [
+        [
+            "image",
+            "image",
+            "image",
+            "image",
+            "www\n",
+            "www.iss.nus.edu.sg\n",
+            "image",
+            "www.facebook.com/ISS.NUS\n",
+            "image",
+            "twitter.com/ISSNUS\n",
+            "image",
+            "@iss.nus\n",
+            "image",
+            "www.linkedin.com/company/iss_nus\n",
+            "image",
+            "youtube.com/user/TheISSNUS/\n",
+            "© National University of Singapore. All Rights Reserved.\n",
+            "48\n"
+        ],
+        [
+            "image",
+            "image",
+            "image",
+            "image",
+            [
+                "UUCJBF+CenturyGothic",
+                14.039999999999964
+            ],
+            [
+                18.0,
+                "UUCJBF+CenturyGothic"
+            ],
+            "image",
+            [
+                18.0,
+                "UUCJBF+CenturyGothic"
+            ],
+            "image",
+            [
+                18.0,
+                "UUCJBF+CenturyGothic"
+            ],
+            "image",
+            [
+                18.0,
+                "UUCJBF+CenturyGothic"
+            ],
+            "image",
+            [
+                18.0,
+                "UUCJBF+CenturyGothic"
+            ],
+            "image",
+            [
+                18.0,
+                "UUCJBF+CenturyGothic"
+            ],
+            [
+                "GEDINH+Calibri",
+                12.0
+            ],
+            [
+                "GEDINH+Calibri",
+                12.0
+            ]
+        ],
+        [
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        [],
+        [
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "National University\nof Singapore\n\nNUS | ISS=\n\n",
+            "",
+            "",
+            "www\n",
+            "www.iss.nus.edu.sg\n",
+            "",
+            "www.facebook.com/ISS.NUS\n",
+            "",
+            "twitter.com/ISSNUS\n",
+            "",
+            "@iss.nus\n",
+            "",
+            "www.linkedin.com/company/iss_nus\n",
+            "",
+            "youtube.com/user/TheISSNUS/\n",
+            "© National University of Singapore. All Rights Reserved.\n",
+            "48\n"
+        ]
+    ]
+}
