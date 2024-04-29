@@ -6,6 +6,7 @@ from dotenv import load_dotenv
 from llama_index.embeddings.huggingface import HuggingFaceEmbedding
 from llama_index.core import Settings
 import os
+import learning_agent
 import base64
 
 

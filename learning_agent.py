@@ -26,11 +26,10 @@ from llama_index.readers.file import PyMuPDFReader
 
 # 普通导入数据存储在index中
 def ingest_and_index(data_dir, PERSIST_DIR):
-    documents = SimpleDirectoryReader(data_dir.load_data())
+    documents = SimpleDirectoryReader(data_dir).load_data()
     splitter = SentenceSplitter(chunk_size=256)
     index = VectorStoreIndex.from_documents(documents, transformations=[splitter], show_progress=True)
     index.storage_context.persist(persist_dir=PERSIST_DIR)
-
 
 # 使用PDF READER 导入数据
 def ingest_and_index_with_pdf_reader(data_path):
@@ -55,7 +54,6 @@ def index_and_ingest_knowledge_graph(data_dir):
     return index_graph
 
 
-
 # 重排 index 的retrieve 方法
 def retriever_rerank(index):
     vector_retriever = index.as_retriever(similarity_top_k=10)
@@ -76,16 +74,15 @@ def retriever_rerank(index):
         "Query: {query}\n"
         "Queries:\n",  # we could override the query generation prompt here
     )
+    print(retriever)
+    print("done")
     return retriever
-
 
 # knowledge graph retriever
 def retriever_knowledge_graph(index_g):
     graph_rag_retriever = index_g.as_retriever()
     print("graph retrieve done")
     return graph_rag_retriever
-
-
 
 # 普通 query engine
 def query_normal(retriever):
@@ -124,3 +121,14 @@ def query_knowledge_graph(graph_rag_retriever):
     response = query_engine.query(question)
     nodes = graph_rag_retriever.retrieve(question)
     return response, nodes
+
+# def save_history_data(queries, response, keyword):
+
+
+if __name__ == "__main__":
+    data_dir = "dataset"
+    per_dir = "db"
+    print("start indexing ...")
+    index = ingest_and_index(data_dir, per_dir)
+    print("start retrieve")
+    retriever = retriever_rerank(index)
